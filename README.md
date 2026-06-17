@@ -45,6 +45,7 @@ Advanced AI/ML pipeline for next-day forest fire probability mapping and multi-h
 ---
 
 ### 🫀 [Cardiac Arrhythmia Detection & Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
 [![Healthcare AI](https://img.shields.io/badge/Healthcare%20AI-E74C3C?style=flat-square&logo=heart&logoColor=white)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
@@ -54,10 +55,8 @@ ML-based cardiac arrhythmia detection and classification using ECG data with com
 
 ---
 
-
----
-
 ### 🌐 [Personal Portfolio Website](https://github.com/Jaideep193/My_Portfolio)
+---
 [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Jaideep193/My_Portfolio)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
@@ -67,6 +66,7 @@ Personal developer portfolio website built with React and Node.js, showcasing pr
 
 ---
 ### ☕ [Java E-Commerce Platform](https://github.com/Jaideep193/Java)
+---
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://github.com/Jaideep193/Java)
 [![MVC](https://img.shields.io/badge/MVC%20Architecture-007396?style=flat-square)](https://github.com/Jaideep193/Java)
 [![Security](https://img.shields.io/badge/PBKDF2%20Hashing-4CCEAC?style=flat-square)](https://github.com/Jaideep193/Java)
@@ -76,6 +76,7 @@ Full-stack console-based Java E-commerce application implementing MVC architectu
 ---
 
 ### 🤖 [Multimodal AI Chatbot (Gemini 2.0)](https://github.com/Jaideep193/Hackathon)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Hackathon)
 [![Google Gemini](https://img.shields.io/badge/Gemini%202.0%20Flash-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/Jaideep193/Hackathon)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/Jaideep193/Hackathon)
@@ -85,6 +86,7 @@ Hackathon-built multimodal AI chatbot powered by Google Gemini 2.0 Flash API wit
 ---
 
 ### 🏡 [Linear Regression: House Price Prediction](https://github.com/Jaideep193/SCT_ML_1)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/SCT_ML_1)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/Jaideep193/SCT_ML_1)
 [![Linear Regression](https://img.shields.io/badge/Linear%20Regression-1ABC9C?style=flat-square)](https://github.com/Jaideep193/SCT_ML_1)
@@ -95,6 +97,7 @@ Comprehensive machine learning project predicting house prices from multiple fea
 ---
 
 ### 🧑‍💼 [Facial Attendance System](https://github.com/Jaideep193/Facial_Attendance_System)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Facial_Attendance_System)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://github.com/Jaideep193/Facial_Attendance_System)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square)](https://github.com/Jaideep193/Facial_Attendance_System)
@@ -105,6 +108,7 @@ Real-time attendance logging using face recognition and camera feeds. Detects an
 ---
 
 ### 🔥 [Forest Fire Detection (ML Classification)](https://github.com/Jaideep193/Forest_Fire_Detection)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Forest_Fire_Detection)
 [![Data Science](https://img.shields.io/badge/Data%20Science-3498DB?style=flat-square)](https://github.com/Jaideep193/Forest_Fire_Detection)
 [![Classification](https://img.shields.io/badge/Classification-E74C3C?style=flat-square)](https://github.com/Jaideep193/Forest_Fire_Detection)
@@ -115,6 +119,7 @@ AI-based solution for early detection of forest fires combining satellite image 
 ---
 
 ### 🏙️ [Delhi AQI Analysis](https://github.com/Jaideep193/Delhi_AQI)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Delhi_AQI)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://github.com/Jaideep193/Delhi_AQI)
 [![Time Series](https://img.shields.io/badge/Time%20Series-1ABC9C?style=flat-square)](https://github.com/Jaideep193/Delhi_AQI)
