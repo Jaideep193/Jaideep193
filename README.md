@@ -31,8 +31,10 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 
 ## 🚀 Featured Projects
+---
 
 ### 🔥 [Forest Fire Detection & Spread Simulation](https://github.com/Jaideep193/forest-fire-detection)
+---
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/forest-fire-detection)
 [![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/Jaideep193/forest-fire-detection)
 [![Satellite Data](https://img.shields.io/badge/VIIRS%20Satellite-FF6B35?style=flat-square&logo=nasa&logoColor=white)](https://github.com/Jaideep193/forest-fire-detection)
