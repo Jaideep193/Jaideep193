@@ -32,49 +32,95 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 ## 🚀 Featured Projects
 
+### 🔥 [Forest Fire Detection & Spread Simulation](https://github.com/Jaideep193/forest-fire-detection)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/forest-fire-detection)
+[![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/Jaideep193/forest-fire-detection)
+[![Satellite Data](https://img.shields.io/badge/VIIRS%20Satellite-FF6B35?style=flat-square&logo=nasa&logoColor=white)](https://github.com/Jaideep193/forest-fire-detection)
+[![Cellular Automata](https://img.shields.io/badge/Cellular%20Automata-6A0DAD?style=flat-square)](https://github.com/Jaideep193/forest-fire-detection)
+
+Advanced AI/ML pipeline for next-day forest fire probability mapping and multi-hour spread simulation over Uttarakhand, India. Integrates NASA VIIRS satellite data with Random Forest classification and Cellular Automata spread modeling at 30m geospatial resolution. Delivers actionable risk maps for proactive wildfire management and disaster response.
+
+---
+
+### 🫀 [Cardiac Arrhythmia Detection & Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![Healthcare AI](https://img.shields.io/badge/Healthcare%20AI-E74C3C?style=flat-square&logo=heart&logoColor=white)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![Signal Processing](https://img.shields.io/badge/Signal%20Processing-2ECC71?style=flat-square)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+
+ML-based cardiac arrhythmia detection and classification using ECG data with comprehensive signal processing and feature extraction pipelines. Applies multiple supervised learning models to identify abnormal heart rhythms with high accuracy, contributing to AI-assisted cardiac diagnostics and patient monitoring systems.
+
+---
+
+### ☕ [Java E-Commerce Platform](https://github.com/Jaideep193/Java)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://github.com/Jaideep193/Java)
+[![MVC](https://img.shields.io/badge/MVC%20Architecture-007396?style=flat-square)](https://github.com/Jaideep193/Java)
+[![Security](https://img.shields.io/badge/PBKDF2%20Hashing-4CCEAC?style=flat-square)](https://github.com/Jaideep193/Java)
+
+Full-stack console-based Java E-commerce application implementing MVC architecture with PBKDF2 password hashing for secure authentication. Features complete shopping cart management, order processing, and file-based data persistence. Demonstrates strong OOP design principles and production-ready security practices.
+
+---
+
+### 🤖 [Multimodal AI Chatbot (Gemini 2.0)](https://github.com/Jaideep193/Hackathon)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Hackathon)
+[![Google Gemini](https://img.shields.io/badge/Gemini%202.0%20Flash-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/Jaideep193/Hackathon)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/Jaideep193/Hackathon)
+
+Hackathon-built multimodal AI chatbot powered by Google Gemini 2.0 Flash API with a Streamlit frontend. Supports rich interactions across text, PDF documents, images, audio, and video modalities. Showcases cutting-edge generative AI integration and rapid full-stack prototyping skills.
+
+---
+
+### 🌐 [Personal Portfolio Website](https://github.com/Jaideep193/My_Portfolio)
+[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Jaideep193/My_Portfolio)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
+[![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
+
+Personal developer portfolio website built with React and Node.js, showcasing projects, skills, certifications, and professional experience in AI/ML, cloud, and full-stack development. Deployed across AWS, Azure, and GitHub Pages for multi-cloud reliability and global availability.
+
+---
+
 ### 🏡 [Linear Regression: House Price Prediction](https://github.com/Jaideep193/SCT_ML_1)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)]()
-[![Linear Regression](https://img.shields.io/badge/Linear%20Regression-4E9A06?style=for-the-badge)]()
-[![Data Science](https://img.shields.io/badge/Data%20Science-1E90FF?style=for-the-badge&logo=dataiku&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/SCT_ML_1)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/Jaideep193/SCT_ML_1)
+[![Linear Regression](https://img.shields.io/badge/Linear%20Regression-1ABC9C?style=flat-square)](https://github.com/Jaideep193/SCT_ML_1)
+[![Data Science](https://img.shields.io/badge/Data%20Science-3498DB?style=flat-square)](https://github.com/Jaideep193/SCT_ML_1)
 
 Comprehensive machine learning project predicting house prices from multiple features with rigorous EDA, outlier detection, and hyperparameter tuning. Implements linear regression and documents performance metrics (MAE, RMSE) in Jupyter notebooks. Includes visual analytics (scatter plots, correlation matrices) and notebook-based workflow for reproducibility.
 
 ---
 
 ### 🧑‍💼 [Facial Attendance System](https://github.com/Jaideep193/Facial_Attendance_System)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)]()
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6100?style=for-the-badge&logo=fastapi&logoColor=white)]()
-[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-272b3a?style=for-the-badge&logo=tensorflow&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Facial_Attendance_System)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://github.com/Jaideep193/Facial_Attendance_System)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square)](https://github.com/Jaideep193/Facial_Attendance_System)
+[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-8E44AD?style=flat-square)](https://github.com/Jaideep193/Facial_Attendance_System)
 
 Real-time attendance logging using face recognition and camera feeds. Detects and identifies individuals from live video, tagging attendance to a database with accuracy checks. Features robust face detection pipeline, automated daily CSV/Excel log export, and user-friendly UI logic suited for school or workplace deployment.
 
 ---
 
-### 🔥 [Forest Fire Detection](https://github.com/Jaideep193/Forest_Fire_Detection)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Data Science](https://img.shields.io/badge/Data%20Science-1E90FF?style=for-the-badge&logo=dataiku&logoColor=white)]()
-[![Classification](https://img.shields.io/badge/Classification-6A1B9A?style=for-the-badge)]()
-[![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-3DDC97?style=for-the-badge)]()
+### 🔥 [Forest Fire Detection (ML Classification)](https://github.com/Jaideep193/Forest_Fire_Detection)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Forest_Fire_Detection)
+[![Data Science](https://img.shields.io/badge/Data%20Science-3498DB?style=flat-square)](https://github.com/Jaideep193/Forest_Fire_Detection)
+[![Classification](https://img.shields.io/badge/Classification-E74C3C?style=flat-square)](https://github.com/Jaideep193/Forest_Fire_Detection)
+[![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-27AE60?style=flat-square)](https://github.com/Jaideep193/Forest_Fire_Detection)
 
 AI-based solution for early detection of forest fires combining satellite image processing and environmental data. Uses supervised learning techniques for classification and risk prediction, benchmarks model accuracy and confusion matrix, and visualizes geographic hotspots. Designed to integrate with real-time alert systems for proactive disaster management.
 
 ---
 
 ### 🏙️ [Delhi AQI Analysis](https://github.com/Jaideep193/Delhi_AQI)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)]()
-[![Time Series](https://img.shields.io/badge/Time%20Series-1976D2?style=for-the-badge)]()
-[![Data Visualization](https://img.shields.io/badge/Data%20Visualization-8E24AA?style=for-the-badge&logo=tableau&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Jaideep193/Delhi_AQI)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://github.com/Jaideep193/Delhi_AQI)
+[![Time Series](https://img.shields.io/badge/Time%20Series-1ABC9C?style=flat-square)](https://github.com/Jaideep193/Delhi_AQI)
+[![Data Visualization](https://img.shields.io/badge/Data%20Visualization-F39C12?style=flat-square)](https://github.com/Jaideep193/Delhi_AQI)
 
-End-to-end project analyzing and forecasting Delhi’s air quality data. Aggregates multi-source AQI datasets, performs time series decomposition, and develops trend/cycle forecasting models. Generates interpretable interactive charts and heatmaps for data-driven urban environment insights, supporting public health reporting.
+End-to-end project analyzing and forecasting Delhi's air quality data. Aggregates multi-source AQI datasets, performs time series decomposition, and develops trend/cycle forecasting models. Generates interpretable interactive charts and heatmaps for data-driven urban environment insights, supporting public health reporting.
 
 ---
 
 **For more, visit my [full GitHub portfolio](https://github.com/Jaideep193?tab=repositories).**
-
-
 
 ## 🏅 Certifications <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=22&duration=3000&pause=1000&width=330&color=0052FF&center=true&vCenter=true&lines=Verified+Credentials+Below!" alt="Certification Animation" style="vertical-align: middle;" />
 
