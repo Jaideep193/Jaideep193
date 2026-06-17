@@ -52,6 +52,18 @@ ML-based cardiac arrhythmia detection and classification using ECG data with com
 
 ---
 
+
+---
+
+### 🌐 [Personal Portfolio Website](https://github.com/Jaideep193/My_Portfolio)
+[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Jaideep193/My_Portfolio)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
+[![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
+
+Personal developer portfolio website built with React and Node.js, showcasing projects, skills, certifications, and professional experience in AI/ML, cloud, and full-stack development. Deployed across AWS, Azure, and GitHub Pages for multi-cloud reliability and global availability.
+
+---
 ### ☕ [Java E-Commerce Platform](https://github.com/Jaideep193/Java)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://github.com/Jaideep193/Java)
 [![MVC](https://img.shields.io/badge/MVC%20Architecture-007396?style=flat-square)](https://github.com/Jaideep193/Java)
@@ -67,16 +79,6 @@ Full-stack console-based Java E-commerce application implementing MVC architectu
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/Jaideep193/Hackathon)
 
 Hackathon-built multimodal AI chatbot powered by Google Gemini 2.0 Flash API with a Streamlit frontend. Supports rich interactions across text, PDF documents, images, audio, and video modalities. Showcases cutting-edge generative AI integration and rapid full-stack prototyping skills.
-
----
-
-### 🌐 [Personal Portfolio Website](https://github.com/Jaideep193/My_Portfolio)
-[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Jaideep193/My_Portfolio)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
-[![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Jaideep193/My_Portfolio)
-
-Personal developer portfolio website built with React and Node.js, showcasing projects, skills, certifications, and professional experience in AI/ML, cloud, and full-stack development. Deployed across AWS, Azure, and GitHub Pages for multi-cloud reliability and global availability.
 
 ---
 
