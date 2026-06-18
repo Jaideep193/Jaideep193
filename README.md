@@ -193,4 +193,34 @@ End-to-end project analyzing and forecasting Delhi's air quality data. Aggregate
 
 
 <!-- PROJECTS-START -->
+## Repositories
+
+| Repository | Description | Language | Stars | Last Updated |
+|------------|-------------|----------|-------|--------------|
+| [forest-fire-detection](https://github.com/Jaideep193/forest-fire-detection) | AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India. | Python | 3 | 2026-06-17 |
+| [Cardiac_Arrhythmia_Detection_And_Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification) | ML-based cardiac arrhythmia detection and classification using ECG data with signal processing, feature extraction, and supervised learning models. | Jupyter Notebook | 5 | 2026-06-17 |
+| [Java](https://github.com/Jaideep193/Java) | Full-stack console-based Java E-commerce application with MVC architecture, PBKDF2 password hashing, shopping cart, order management, and file-based persistence. | Java | 2 | 2026-06-17 |
+| [forest-fire](https://github.com/Jaideep193/forest-fire) | Forest fire spread simulation for Uttarakhand, India using NASA VIIRS satellite data, Copernicus DEM, and a Rothermel Cellular Automaton model.  | Python | 3 | 2026-06-16 |
+| [Delhi_AQI](https://github.com/Jaideep193/Delhi_AQI) | End-to-end Delhi air quality index analysis with time series decomposition, multi-source AQI data aggregation, trend forecasting, and interactive heatmap visualizations. | Jupyter Notebook | 3 | 2026-06-15 |
+| [My_Portfolio](https://github.com/Jaideep193/My_Portfolio) | Personal developer portfolio website showcasing projects, skills, certifications, and experience in AI/ML, cloud, and full-stack development. Deployed in AWS, Azure, GitHub pages. | JavaScript | 4 | 2026-06-15 |
+| [Facial_Attendance_System](https://github.com/Jaideep193/Facial_Attendance_System) | Real-time facial recognition attendance system using OpenCV with live camera feed, automated CSV/Excel log export, and database tagging. | Jupyter Notebook | 3 | 2026-06-15 |
+| [Hackathon](https://github.com/Jaideep193/Hackathon) | Multimodal AI chatbot built with Streamlit and Google Gemini 2.0 Flash API — supports text, PDF, image, audio, and video interactions. | Python | 1 | 2026-06-15 |
+| [Jaideep193.github.io](https://github.com/Jaideep193/Jaideep193.github.io) | GitHub Pages hosted personal website and portfolio for Jaideep M C — Information Science Engineer and AI/ML enthusiast. | N/A | 0 | 2026-06-15 |
+| [Forest_Fire_Detection](https://github.com/Jaideep193/Forest_Fire_Detection) | AI-based forest fire detection using satellite imagery and environmental data with supervised ML classification, accuracy benchmarking, and geographic hotspot visualization. | Jupyter Notebook | 4 | 2026-06-15 |
+| [default](https://github.com/Jaideep193/default) | Production-ready distributed Go web app for GCP exposing GCE instance metadata via REST API, with Docker, Kubernetes (GKE), and Jenkins CI/CD pipeline. | Go | 0 | 2026-06-15 |
+| [-Hand_Gestures_](https://github.com/Jaideep193/-Hand_Gestures_) | Real-time hand gesture recognition system using MediaPipe and OpenCV that controls media playback via keyboard commands. | Python | 0 | 2026-06-15 |
+| [BigData](https://github.com/Jaideep193/BigData) | Big data analytics on e-commerce datasets including Brazilian Olist marketplace data — data processing, insights, and exploratory analysis. | HTML | 0 | 2026-06-15 |
+| [SCT_ML_2](https://github.com/Jaideep193/SCT_ML_2) | K-Means clustering model for customer segmentation using Mall Customers dataset with feature engineering and cluster visualization. | Jupyter Notebook | 0 | 2026-06-15 |
+| [SCT_ML_1](https://github.com/Jaideep193/SCT_ML_1) | Linear regression model for house price prediction with EDA, outlier detection, hyperparameter tuning, and visual analytics using Jupyter Notebook. | Jupyter Notebook | 0 | 2026-06-15 |
+| [jaideepmc2003](https://github.com/Jaideep193/jaideepmc2003) | Alternate GitHub profile README for Jaideep M C — certificates, accomplishments, and developer identity. | N/A | 0 | 2026-06-15 |
+| [adgenesis](https://github.com/Jaideep193/adgenesis) | No description | N/A | 0 | 2026-01-04 |
+
+## GitHub Projects
+
+| Project | Description | Last Updated |
+|---------|-------------|--------------|
+| [Netflix Clone Project BoardNetflix Clone Project Board@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/4) | No description | 2025-09-05 |
+| [@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/3) | No description | 2025-04-14 |
+| [@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/2) | No description | 2025-04-14 |
+| [@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/1) | No description | 2025-04-14 |
 <!-- PROJECTS-END -->
