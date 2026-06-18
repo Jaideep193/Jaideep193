@@ -190,3 +190,7 @@ End-to-end project analyzing and forecasting Delhi's air quality data. Aggregate
 ---
 
 ✨ "Innovation through Intelligence • Impact through Code • Future through AI" ✨
+
+
+<!-- PROJECTS-START -->
+<!-- PROJECTS-END -->
