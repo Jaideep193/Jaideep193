@@ -1,4 +1,4 @@
-name: Update README with Projects
+name: Update README Featured Projects
 
 on:
   schedule:
@@ -28,9 +28,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Update README with repos and projects
+      - name: Update Featured Projects in README
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GH_USERNAME: ${{ github.repository_owner }}
         run: |
           python3 - <<'PYEOF'
@@ -38,9 +38,27 @@ jobs:
 
           username = os.environ["GH_USERNAME"]
           token = os.environ["GH_TOKEN"]
-          headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json"
+          }
 
-          # Fetch all repos
+          # Language to badge color mapping
+          LANG_COLORS = {
+              "Python": "3776AB", "JavaScript": "F7DF1E", "TypeScript": "3178C6",
+              "Java": "007396", "Go": "00ADD8", "C++": "00599C", "C": "A8B9CC",
+              "HTML": "E34F26", "CSS": "1572B6", "Shell": "89E051",
+              "Jupyter Notebook": "DA5B0B", "R": "276DC3", "Rust": "000000",
+          }
+
+          # Language to emoji mapping
+          LANG_EMOJI = {
+              "Python": "🐍", "JavaScript": "🌐", "TypeScript": "🔷",
+              "Java": "☕", "Go": "🐹", "Jupyter Notebook": "📓",
+              "HTML": "🌐", "C++": "⚙️", "Shell": "🖥️", "R": "📊",
+          }
+
+          # Fetch all repos (owner type, sorted by updated)
           repos = []
           page = 1
           while True:
@@ -50,78 +68,114 @@ jobs:
                   params={"per_page": 100, "page": page, "sort": "updated", "type": "owner"}
               )
               data = r.json()
-              if not data:
+              if not isinstance(data, list) or not data:
                   break
               repos.extend(data)
               page += 1
 
-          # Fetch GitHub Projects (v2) linked to user
-          query = """
-          query($login: String!) {
-            user(login: $login) {
-              projectsV2(first: 20) {
-                nodes {
-                  title
-                  url
-                  shortDescription
-                  updatedAt
-                }
-              }
-            }
-          }
-          """
-          gql_resp = requests.post(
-              "https://api.github.com/graphql",
-              headers=headers,
-              json={"query": query, "variables": {"login": username}}
-          ).json()
-          projects = gql_resp.get("data", {}).get("user", {}).get("projectsV2", {}).get("nodes", [])
+          # Filter: only repos with a description, exclude profile repo itself
+          featured = [
+              r for r in repos
+              if r.get("description")
+              and r["name"].lower() != username.lower()
+              and not r.get("fork", False)
+              and not r.get("archived", False)
+          ]
 
-          # Build the repos table
-          repo_rows = []
-          for repo in repos:
-              if repo["name"] == username:
-                  continue
+          # Sort by stars desc, then updated desc
+          featured.sort(key=lambda r: (-r.get("stargazers_count", 0), r.get("updated_at", "")), reverse=False)
+          featured = featured[:12]  # cap at 12 entries
+
+          # Build Featured Projects markdown entries
+          entries = []
+          for repo in featured:
               name = repo["name"]
-              desc = repo.get("description") or "No description"
+              desc = repo.get("description", "No description provided.").strip()
               url = repo["html_url"]
-              lang = repo.get("language") or "N/A"
+              lang = repo.get("language") or ""
               stars = repo.get("stargazers_count", 0)
+              topics = repo.get("topics", [])
               updated = repo.get("updated_at", "")[:10]
-              repo_rows.append(f"| [{name}]({url}) | {desc} | {lang} | {stars} | {updated} |")
 
-          repos_section = "<!-- PROJECTS-START -->\n## Repositories\n\n| Repository | Description | Language | Stars | Last Updated |\n|------------|-------------|----------|-------|--------------|\n"
-          repos_section += "\n".join(repo_rows) + "\n"
+              # Pick a project emoji based on topics/language/name
+              emoji = "🚀"
+              name_lower = name.lower()
+              desc_lower = desc.lower()
+              if any(k in name_lower + desc_lower for k in ["fire", "forest"]):
+                  emoji = "🔥"
+              elif any(k in name_lower + desc_lower for k in ["heart", "cardiac", "health", "medical"]):
+                  emoji = "🫀"
+              elif any(k in name_lower + desc_lower for k in ["portfolio", "website", "web"]):
+                  emoji = "🌐"
+              elif any(k in name_lower + desc_lower for k in ["java", "ecommerce", "shop", "commerce"]):
+                  emoji = "☕"
+              elif any(k in name_lower + desc_lower for k in ["ai", "chatbot", "bot", "gemini", "gpt", "llm"]):
+                  emoji = "🤖"
+              elif any(k in name_lower + desc_lower for k in ["house", "price", "predict", "regression"]):
+                  emoji = "🏡"
+              elif any(k in name_lower + desc_lower for k in ["face", "facial", "attendance", "recognition"]):
+                  emoji = "🧑‍💼"
+              elif any(k in name_lower + desc_lower for k in ["aqi", "air", "quality", "pollution", "delhi"]):
+                  emoji = "🏙️"
+              elif any(k in name_lower + desc_lower for k in ["gesture", "hand"]):
+                  emoji = "✋"
+              elif any(k in name_lower + desc_lower for k in ["data", "analytics", "analysis"]):
+                  emoji = "📊"
+              elif any(k in name_lower + desc_lower for k in ["cloud", "gcp", "aws", "azure"]):
+                  emoji = "☁️"
 
-          # Build the projects section
-          if projects:
-              proj_rows = []
-              for p in projects:
-                  title = p.get("title", "Untitled")
-                  url = p.get("url", "#")
-                  desc = p.get("shortDescription") or "No description"
-                  updated = p.get("updatedAt", "")[:10]
-                  proj_rows.append(f"| [{title}]({url}) | {desc} | {updated} |")
-              projects_section = "\n## GitHub Projects\n\n| Project | Description | Last Updated |\n|---------|-------------|--------------|\n"
-              projects_section += "\n".join(proj_rows) + "\n"
-          else:
-              projects_section = "\n## GitHub Projects\n\nNo GitHub Projects yet.\n"
+              # Build badge line
+              badges = []
+              if lang:
+                  color = LANG_COLORS.get(lang, "555555")
+                  lang_slug = lang.replace(" ", "%20").replace("+", "%2B")
+                  badges.append(f"![{lang}](https://img.shields.io/badge/{lang_slug}-{color}?style=flat-square&logo={lang_slug.lower()}&logoColor=white)")
+              for topic in topics[:4]:
+                  topic_display = topic.replace("-", " ").title()
+                  topic_slug = topic.replace("-", "%20")
+                  badges.append(f"![{topic_display}](https://img.shields.io/badge/{topic_slug}-0A66C2?style=flat-square)")
 
-          repos_section += projects_section + "<!-- PROJECTS-END -->"
+              badge_line = " ".join(badges) if badges else ""
 
+              # Format the entry (matching existing README style)
+              entry_lines = [f"### {emoji} [{name}]({url})"]
+              if badge_line:
+                  entry_lines.append(badge_line)
+              entry_lines.append("")
+              entry_lines.append(desc)
+              if stars > 0:
+                  entry_lines.append("")
+                  entry_lines.append(f"> ⭐ {stars} stars &nbsp;|&nbsp; 📅 Updated: {updated}")
+              entry_lines.append("")
+              entry_lines.append("---")
+              entries.append("\n".join(entry_lines))
+
+          # Build the full replacement block
+          new_section = "<!-- FEATURED-PROJECTS-START -->\n"
+          new_section += "## 🚀 Featured Projects\n\n"
+          new_section += "\n\n".join(entries)
+          new_section += "\n\n<!-- FEATURED-PROJECTS-END -->"
+
+          # Read README
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
 
-          pattern = r"<!-- PROJECTS-START -->.*?<!-- PROJECTS-END -->"
+          # Replace between FEATURED-PROJECTS markers
+          pattern = r"<!-- FEATURED-PROJECTS-START -->.*?<!-- FEATURED-PROJECTS-END -->"
           if re.search(pattern, content, flags=re.DOTALL):
-              new_content = re.sub(pattern, repos_section, content, flags=re.DOTALL)
+              new_content = re.sub(pattern, new_section, content, flags=re.DOTALL)
           else:
-              new_content = content.rstrip() + "\n\n" + repos_section + "\n"
+              # Inject just before the Certifications section if no markers found
+              cert_pattern = r"(## 🏅 Certifications|## 🎖️)"
+              if re.search(cert_pattern, content):
+                  new_content = re.sub(cert_pattern, new_section + "\n\n\\1", content, count=1)
+              else:
+                  new_content = content.rstrip() + "\n\n" + new_section + "\n"
 
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(new_content)
 
-          print("README.md updated successfully.")
+          print(f"README.md updated: {len(featured)} projects added to Featured Projects section.")
           PYEOF
 
       - name: Commit and push changes
@@ -129,5 +183,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: auto-update README with repos and projects [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: auto-update Featured Projects in README [skip ci]"
           git push
