@@ -30,6 +30,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
+<!-- FEATURED-PROJECTS-START -->
 ## 🚀 Featured Projects
 
 ### 🔥 Forest Fire Detection & Spread Simulation
@@ -105,6 +106,7 @@ End-to-end project analyzing and forecasting Delhi's air quality data. Aggregate
 ---
 
 For more, visit my [full GitHub portfolio](https://github.com/Jaideep193).
+<!-- FEATURED-PROJECTS-END -->
 
 ## 🏅 Certifications <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=22&duration=3000&pause=1000&width=330&color=0052FF&center=true&vCenter=true&lines=Verified+Credentials+Below!" alt="Certification Animation" style="vertical-align: middle;" />
 
