@@ -106,6 +106,64 @@ End-to-end project analyzing and forecasting Delhi's air quality data. Aggregate
 ---
 
 For more, visit my [full GitHub portfolio](https://github.com/Jaideep193).
+
+
+### 🧑‍💼 [Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white)
+
+Detection and Characterisation of Subsurface Ice in Lunar South Polar Regions using Chandrayaan-2 DFSAR compact polarimetry and OHRC imagery.
+
+---
+
+### 🔥 [forest fire](https://github.com/Jaideep193/forest-fire)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automaton](https://img.shields.io/badge/cellular%20automaton-0A66C2?style=flat-square) ![Fire Simulation](https://img.shields.io/badge/fire%20simulation-0A66C2?style=flat-square) ![Forest Fire](https://img.shields.io/badge/forest%20fire-0A66C2?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-0A66C2?style=flat-square)
+
+Forest fire spread simulation for Uttarakhand, India using NASA VIIRS satellite data, Copernicus DEM, and a Rothermel Cellular Automaton model.
+
+---
+
+### 🌐 [Jaideep193.github.io](https://github.com/Jaideep193/Jaideep193.github.io)
+![Css](https://img.shields.io/badge/css-0A66C2?style=flat-square) ![Github Pages](https://img.shields.io/badge/github%20pages-0A66C2?style=flat-square) ![Html](https://img.shields.io/badge/html-0A66C2?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-0A66C2?style=flat-square)
+
+GitHub Pages hosted personal website and portfolio for Jaideep M C — Information Science Engineer and AI/ML enthusiast.
+
+---
+
+### ☕ [BigData](https://github.com/Jaideep193/BigData)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![Big Data](https://img.shields.io/badge/big%20data-0A66C2?style=flat-square) ![Data Analytics](https://img.shields.io/badge/data%20analytics-0A66C2?style=flat-square) ![Ecommerce](https://img.shields.io/badge/ecommerce-0A66C2?style=flat-square) ![Eda](https://img.shields.io/badge/eda-0A66C2?style=flat-square)
+
+Big data analytics on e-commerce datasets including Brazilian Olist marketplace data — data processing, insights, and exploratory analysis.
+
+---
+
+### ✋ [ Hand Gestures ](https://github.com/Jaideep193/-Hand_Gestures_)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Computer Vision](https://img.shields.io/badge/computer%20vision-0A66C2?style=flat-square) ![Gesture Recognition](https://img.shields.io/badge/gesture%20recognition-0A66C2?style=flat-square) ![Hand Gesture](https://img.shields.io/badge/hand%20gesture-0A66C2?style=flat-square) ![Media Control](https://img.shields.io/badge/media%20control-0A66C2?style=flat-square)
+
+Real-time hand gesture recognition system using MediaPipe and OpenCV that controls media playback via keyboard commands.
+
+---
+
+### 📊 [default](https://github.com/Jaideep193/default)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Cicd](https://img.shields.io/badge/cicd-0A66C2?style=flat-square) ![Cloud Native](https://img.shields.io/badge/cloud%20native-0A66C2?style=flat-square) ![Devops](https://img.shields.io/badge/devops-0A66C2?style=flat-square) ![Docker](https://img.shields.io/badge/docker-0A66C2?style=flat-square)
+
+Production-ready distributed Go web app for GCP exposing GCE instance metadata via REST API, with Docker, Kubernetes (GKE), and Jenkins CI/CD pipeline.
+
+---
+
+### 📊 [SCT ML 2](https://github.com/Jaideep193/SCT_ML_2)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Clustering](https://img.shields.io/badge/clustering-0A66C2?style=flat-square) ![Customer Segmentation](https://img.shields.io/badge/customer%20segmentation-0A66C2?style=flat-square) ![Data Science](https://img.shields.io/badge/data%20science-0A66C2?style=flat-square) ![Jupyter](https://img.shields.io/badge/jupyter-0A66C2?style=flat-square)
+
+K-Means clustering model for customer segmentation using Mall Customers dataset with feature engineering and cluster visualization.
+
+---
+
+### 🚀 [jaideepmc2003](https://github.com/Jaideep193/jaideepmc2003)
+![About Me](https://img.shields.io/badge/about%20me-0A66C2?style=flat-square) ![Accomplishments](https://img.shields.io/badge/accomplishments-0A66C2?style=flat-square) ![Certifications](https://img.shields.io/badge/certifications-0A66C2?style=flat-square) ![Github Profile](https://img.shields.io/badge/github%20profile-0A66C2?style=flat-square)
+
+Alternate GitHub profile README for Jaideep M C — certificates, accomplishments, and developer identity.
+
+---
+
 <!-- FEATURED-PROJECTS-END -->
 
 ## 🏅 Certifications <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=22&duration=3000&pause=1000&width=330&color=0052FF&center=true&vCenter=true&lines=Verified+Credentials+Below!" alt="Certification Animation" style="vertical-align: middle;" />
