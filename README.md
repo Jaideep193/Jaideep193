@@ -33,7 +33,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 <!-- FEATURED-PROJECTS-START -->
 ## 🚀 Featured Projects
 
-### 🔥 Forest Fire Detection & Spread Simulation
+### 🔥 [Forest Fire Detection & Spread Simulation](https://github.com/Jaideep193/forest-fire-detection)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square) ![NASA VIIRS](https://img.shields.io/badge/NASA%20VIIRS-0B3D91?style=flat-square) ![Cellular Automata](https://img.shields.io/badge/Cellular%20Automata-4CAF50?style=flat-square)
 
@@ -41,7 +41,7 @@ Advanced AI/ML pipeline for next-day forest fire probability mapping and multi-h
 
 ---
 
-### 🫀 Cardiac Arrhythmia Detection & Classification
+### 🫀 [Cardiac Arrhythmia Detection & Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![ECG Analysis](https://img.shields.io/badge/ECG%20Analysis-E53935?style=flat-square) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
@@ -49,7 +49,7 @@ ML-based cardiac arrhythmia detection and classification using ECG data with com
 
 ---
 
-### 🌐 Personal Portfolio Website
+### 🌐 [Personal Portfolio Website](https://github.com/Jaideep193/My_Portfolio)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
@@ -57,7 +57,7 @@ Personal developer portfolio website built with React and Node.js, showcasing pr
 
 ---
 
-### ☕ Java E-Commerce Platform
+### ☕ [Java E-Commerce Platform](https://github.com/Jaideep193/Java)
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![MVC](https://img.shields.io/badge/MVC-Architecture-6DB33F?style=flat-square) ![Security](https://img.shields.io/badge/PBKDF2-Security-B71C1C?style=flat-square)
 
@@ -65,7 +65,7 @@ Full-stack console-based Java E-commerce application implementing MVC architectu
 
 ---
 
-### 🤖 Multimodal AI Chatbot (Gemini 2.0)
+### 🤖 [Multimodal AI Chatbot (Gemini 2.0)](https://github.com/Jaideep193/Hackathon)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Gemini 2.0 Flash](https://img.shields.io/badge/Gemini%202.0%20Flash-4285F4?style=flat-square&logo=google&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
@@ -73,7 +73,7 @@ Hackathon-built multimodal AI chatbot powered by Google Gemini 2.0 Flash API wit
 
 ---
 
-### 🏡 Linear Regression: House Price Prediction
+### 🏡 [Linear Regression: House Price Prediction](https://github.com/Jaideep193/SCT_ML_1)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Linear Regression](https://img.shields.io/badge/Linear%20Regression-1565C0?style=flat-square) ![Data Science](https://img.shields.io/badge/Data%20Science-00695C?style=flat-square)
 
@@ -81,7 +81,7 @@ Comprehensive machine learning project predicting house prices from multiple fea
 
 ---
 
-### 🧑‍💼 Facial Attendance System
+### 🧑‍💼 [Facial Attendance System](https://github.com/Jaideep193/Facial_Attendance_System)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-7B1FA2?style=flat-square)
 
@@ -89,7 +89,7 @@ Real-time attendance logging using face recognition and camera feeds. Detects an
 
 ---
 
-### 🔥 Forest Fire Detection (ML Classification)
+### 🔥 [Forest Fire Detection (ML Classification)](https://github.com/Jaideep193/Forest_Fire_Detection)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Classification](https://img.shields.io/badge/Classification-2E7D32?style=flat-square)
 
@@ -97,7 +97,7 @@ AI-based solution for early detection of forest fires combining satellite image 
 
 ---
 
-### 🏙️ Delhi AQI Analysis
+### 🏙️ [Delhi AQI Analysis](https://github.com/Jaideep193/Delhi_AQI)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Time Series](https://img.shields.io/badge/Time%20Series-0277BD?style=flat-square) ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-00838F?style=flat-square)
 
