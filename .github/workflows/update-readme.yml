@@ -1,0 +1,133 @@
+name: Update README with Projects
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update README with repos and projects
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, re, requests
+
+          username = os.environ["GH_USERNAME"]
+          token = os.environ["GH_TOKEN"]
+          headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+
+          # Fetch all repos
+          repos = []
+          page = 1
+          while True:
+              r = requests.get(
+                  "https://api.github.com/user/repos",
+                  headers=headers,
+                  params={"per_page": 100, "page": page, "sort": "updated", "type": "owner"}
+              )
+              data = r.json()
+              if not data:
+                  break
+              repos.extend(data)
+              page += 1
+
+          # Fetch GitHub Projects (v2) linked to user
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              projectsV2(first: 20) {
+                nodes {
+                  title
+                  url
+                  shortDescription
+                  updatedAt
+                }
+              }
+            }
+          }
+          """
+          gql_resp = requests.post(
+              "https://api.github.com/graphql",
+              headers=headers,
+              json={"query": query, "variables": {"login": username}}
+          ).json()
+          projects = gql_resp.get("data", {}).get("user", {}).get("projectsV2", {}).get("nodes", [])
+
+          # Build the repos table
+          repo_rows = []
+          for repo in repos:
+              if repo["name"] == username:
+                  continue
+              name = repo["name"]
+              desc = repo.get("description") or "No description"
+              url = repo["html_url"]
+              lang = repo.get("language") or "N/A"
+              stars = repo.get("stargazers_count", 0)
+              updated = repo.get("updated_at", "")[:10]
+              repo_rows.append(f"| [{name}]({url}) | {desc} | {lang} | {stars} | {updated} |")
+
+          repos_section = "<!-- PROJECTS-START -->\n## Repositories\n\n| Repository | Description | Language | Stars | Last Updated |\n|------------|-------------|----------|-------|--------------|\n"
+          repos_section += "\n".join(repo_rows) + "\n"
+
+          # Build the projects section
+          if projects:
+              proj_rows = []
+              for p in projects:
+                  title = p.get("title", "Untitled")
+                  url = p.get("url", "#")
+                  desc = p.get("shortDescription") or "No description"
+                  updated = p.get("updatedAt", "")[:10]
+                  proj_rows.append(f"| [{title}]({url}) | {desc} | {updated} |")
+              projects_section = "\n## GitHub Projects\n\n| Project | Description | Last Updated |\n|---------|-------------|--------------|\n"
+              projects_section += "\n".join(proj_rows) + "\n"
+          else:
+              projects_section = "\n## GitHub Projects\n\nNo GitHub Projects yet.\n"
+
+          repos_section += projects_section + "<!-- PROJECTS-END -->"
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          pattern = r"<!-- PROJECTS-START -->.*?<!-- PROJECTS-END -->"
+          if re.search(pattern, content, flags=re.DOTALL):
+              new_content = re.sub(pattern, repos_section, content, flags=re.DOTALL)
+          else:
+              new_content = content.rstrip() + "\n\n" + repos_section + "\n"
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+
+          print("README.md updated successfully.")
+          PYEOF
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update README with repos and projects [skip ci]"
+          git push
