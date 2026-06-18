@@ -103,15 +103,6 @@ AI-based solution for early detection of forest fires combining satellite image 
 
 End-to-end project analyzing and forecasting Delhi's air quality data. Aggregates multi-source AQI datasets, performs time series decomposition, and develops trend/cycle forecasting models. Generates interpretable interactive charts and heatmaps for data-driven urban environment insights, supporting public health reporting.
 
----
-
-For more, visit my [full GitHub portfolio](https://github.com/Jaideep193).
-
-
-### 🧑‍💼 [Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white)
-
-Detection and Characterisation of Subsurface Ice in Lunar South Polar Regions using Chandrayaan-2 DFSAR compact polarimetry and OHRC imagery.
 
 ---
 
