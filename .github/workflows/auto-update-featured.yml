@@ -2,7 +2,7 @@ name: Auto-add new repos to Featured Projects
 
 on:
   schedule:
-    - cron: '0 * * * *'
+        - cron: '*/5 * * * *' # Runs every 5 minutes
   workflow_dispatch:
   create:
 
