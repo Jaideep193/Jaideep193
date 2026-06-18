@@ -37,7 +37,7 @@ block = readme[si + len(START): ei]
 
 # Find which repos are already in the block by URL
 existing = set(re.findall(
-    r"https://github\.com/" + re.escape(username) + r"/([^/)\s"']+)", block, re.I))
+            r"""https://github\.com/""" + re.escape(username) + r"""/([^/)\s"']+)""", block, re.I))
 
 # Badge helpers
 LANG_COLOR = {"Python":"3776AB","JavaScript":"F7DF1E","TypeScript":"3178C6",
