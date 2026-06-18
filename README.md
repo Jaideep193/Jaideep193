@@ -215,12 +215,4 @@ End-to-end project analyzing and forecasting Delhi's air quality data. Aggregate
 | [jaideepmc2003](https://github.com/Jaideep193/jaideepmc2003) | Alternate GitHub profile README for Jaideep M C — certificates, accomplishments, and developer identity. | N/A | 0 | 2026-06-15 |
 | [adgenesis](https://github.com/Jaideep193/adgenesis) | No description | N/A | 0 | 2026-01-04 |
 
-## GitHub Projects
-
-| Project | Description | Last Updated |
-|---------|-------------|--------------|
-| [Netflix Clone Project BoardNetflix Clone Project Board@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/4) | No description | 2025-09-05 |
-| [@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/3) | No description | 2025-04-14 |
-| [@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/2) | No description | 2025-04-14 |
-| [@Jaideep193's untitled project](https://github.com/users/Jaideep193/projects/1) | No description | 2025-04-14 |
 <!-- PROJECTS-END -->
