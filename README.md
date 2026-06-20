@@ -35,7 +35,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 <!-- FEATURED-PROJECTS-START -->
 #### 🧑‍💼 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/Bayesian-0A66C2?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/Chandrayaan%202-0A66C2?style=flat-square) ![Ice Detection](https://img.shields.io/badge/Ice%20Detection-0A66C2?style=flat-square) ![Isru](https://img.shields.io/badge/Isru-0A66C2?style=flat-square)
-> End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Ba
+> End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Bayesian inference, and ML validation
 
 [⭐ 3 stars](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar) &nbsp; [→ View Project](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
 
