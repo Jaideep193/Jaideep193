@@ -60,29 +60,42 @@ def clean_markdown(text):
     text = re.sub(r"^\s*\d+\.\s+", "", text, flags=re.MULTILINE)
     text = re.sub(r"\|[-: ]+\|", " ", text)
     text = re.sub(r"\|", " ", text)
-    # Filter out noisy lines (emoji-only, paths, badge lines)
     lines = text.split("\n")
     good_lines = []
     for line in lines:
         stripped = line.strip()
-        if not stripped or len(stripped) < 10:
+        if not stripped:
             continue
-        words = re.findall(r"[a-zA-Z]{3,}", stripped)
-        if len(words) < 2:
+        real_words = re.findall(r"[A-Za-z]{2,}", stripped)
+        if len(real_words) < 2:
             continue
-        if re.match(r"^(https?|www\.|#|\*|---|`|\|)", stripped):
+        if re.match(r"^(https?|www\.|#|/\*|---|`|\|)", stripped):
             continue
         good_lines.append(stripped)
-    text = " ".join(good_lines)
-    text = re.sub(r"[ \t]+", " ", text)
-    return text.strip()
+    return " ".join(good_lines)
+
 
 def extract_summary(repo_name, fallback_desc=""):
-    """Return a clean 1-2 sentence project description."""
-    # Priority 1: Use the GitHub description if meaningful (it is already clean)
+    """Return a complete, clean project description (1-3 sentences)."""
+    # Priority 1: Use the GitHub description if meaningful
     if fallback_desc and len(fallback_desc.split()) >= 4:
-        desc = fallback_desc.strip().rstrip(".")
-        return desc[:200]
+        desc = fallback_desc.strip()
+        # Split into sentences and return complete sentences up to 300 chars
+        parts = re.split(r"(?<=[.!?])\s+", desc)
+        result = []
+        total = 0
+        for p in parts:
+            if total + len(p) > 300:
+                break
+            result.append(p)
+            total += len(p) + 1
+        if result:
+            return " ".join(result)
+        # If single very long sentence, truncate at word boundary
+        if len(desc) > 300:
+            cut = desc[:300].rsplit(" ", 1)[0]
+            return cut + "..."
+        return desc
 
     # Priority 2: Extract from README
     raw = fetch_readme_text(repo_name)
@@ -90,13 +103,14 @@ def extract_summary(repo_name, fallback_desc=""):
         return fallback_desc or "No description available."
 
     plain = clean_markdown(raw)
+    plain = re.sub(r"\s+", " ", plain).strip()
 
     sentences = re.split(r"(?<=[.!?])\s+", plain)
     good = []
     for s in sentences:
         s = s.strip()
         words = s.split()
-        if len(words) < 6 or len(words) > 50:
+        if len(words) < 5 or len(words) > 80:
             continue
         if re.search(r"https?://", s):
             continue
@@ -107,32 +121,17 @@ def extract_summary(repo_name, fallback_desc=""):
             break
 
     if good:
-        summary = " ".join(good)
-        return summary[:220] if len(summary) <= 220 else summary[:220].rsplit(" ", 1)[0] + "..."
+        return " ".join(good)
 
-    # Last resort: first 180 chars of cleaned text
-    text = plain[:180]
-    if len(plain) > 180:
+    # Last resort: find a natural break point in cleaned text
+    text = plain[:280]
+    if len(plain) > 280:
+        last_period = max(text.rfind(". "), text.rfind("! "), text.rfind("? "))
+        if last_period > 100:
+            return text[:last_period + 1]
         text = text.rsplit(" ", 1)[0] + "..."
     return text or fallback_desc or "No description available."
 
-# ── Read profile README ──────────────────────────────────────────────────────
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
-
-START = "<!-- FEATURED-PROJECTS-START -->"
-END   = "<!-- FEATURED-PROJECTS-END -->"
-if START not in readme or END not in readme:
-    print("Markers not found - nothing to do.")
-    raise SystemExit
-
-si = readme.index(START)
-ei = readme.index(END)
-block = readme[si + len(START):ei]
-
-# ── REMOVAL: strip entries for repos that no longer exist ────────────────────
-entry_pattern = re.compile(r'### .+?(?=\n### |\Z)', re.DOTALL)
-removed = []
 
 def keep_entry(m):
     entry_text = m.group(0)
