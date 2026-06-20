@@ -155,6 +155,13 @@ Alternate GitHub profile README for Jaideep M C — certificates, accomplishment
 
 ---
 
+### 🧑‍💼 [Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
+ ![Bayesian](https://img.shields.io/badge/Bayesian-0A66C2?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/Chandrayaan%202-0A66C2?style=flat-square) ![Ice Detection](https://img.shields.io/badge/Ice%20Detection-0A66C2?style=flat-square) ![Isru](https://img.shields.io/badge/Isru-0A66C2?style=flat-square)
+Chandrayaan-2 SAR Investigation of a Doubly Shadowed Crater within Faustini PSR An end-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the lunar south polar Faustini Permanently Shadowed Region (PSR), using Chandrayaan-2 SAR compact-polarimetry SAR, OHRC high-resolution optical imagery, and machine-learning validation. Scientific Method Polarimetric ice...
+
+### 🚀 [adgenesis](https://github.com/Jaideep193/adgenesis)
+ADGENESIS - AI-Powered Ad Design Platform Automate compliant ad creation with AI-powered design generation - 100% FREE with custom ML model! ✨ Key Features Custom ML Model: Fine-tuned GPT-2 model with intelligent fallback system Zero Cost Generation: Generate unlimited ads without OpenAI API costs Professional Templates: 6 built-in themes (Tech, Fashion, Sale, Business, Food, Default) AI Design...
+
 <!-- FEATURED-PROJECTS-END -->
 
 ## 🏅 Certifications <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=22&duration=3000&pause=1000&width=330&color=0052FF&center=true&vCenter=true&lines=Verified+Credentials+Below!" alt="Certification Animation" style="vertical-align: middle;" />
