@@ -133,6 +133,24 @@ def extract_summary(repo_name, fallback_desc=""):
     return text or fallback_desc or "No description available."
 
 
+
+# ── Read profile README ────────────────────────────────────────────────────────────
+with open("README.md", "r", encoding="utf-8") as f:
+    readme = f.read()
+
+START = "<!-- FEATURED-PROJECTS-START -->"
+END   = "<!-- FEATURED-PROJECTS-END -->"
+if START not in readme or END not in readme:
+    print("Markers not found - nothing to do.")
+    raise SystemExit
+
+si = readme.index(START)
+ei = readme.index(END)
+block = readme[si + len(START):ei]
+
+# ── REMOVAL: strip entries for repos that no longer exist ────────────────────
+entry_pattern = re.compile(r'### .+?(?=\n### |\Z)', re.DOTALL)
+removed = []
 def keep_entry(m):
     entry_text = m.group(0)
     names = re.findall(
