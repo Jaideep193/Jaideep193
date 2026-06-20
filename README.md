@@ -34,7 +34,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 <!-- FEATURED-PROJECTS-START -->
 #### 🧑‍💼 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/Bayesian-0A66C2?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/Chandrayaan%202-0A66C2?style=flat-square) ![Ice Detection](https://img.shields.io/badge/Ice%20Detection-DA5B0B?style=flat-square) ![Isru](https://img.shields.io/badge/Isru-0A66C2?style=flat-square)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/Bayesian-0A66C2?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/Chandrayaan%202-0A66C2?style=flat-square) ![Ice Detection](https://img.shields.io/badge/Ice%20Detection-0A66C2?style=flat-square) ![Isru](https://img.shields.io/badge/Isru-0A66C2?style=flat-square)
 > End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Ba
 
 [⭐ 3 stars](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar) &nbsp; [→ View Project](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
@@ -116,7 +116,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Console Application](https://img.shields.io/badge/Console%20Application-0A66C2?style=flat-square) ![Data Persistence](https://img.shields.io/badge/Data%20Persistence-0A66C2?style=flat-square) ![Ecommerce](https://img.shields.io/badge/Ecommerce-0A66C2?style=flat-square) ![Java](https://img.shields.io/badge/Java-0A66C2?style=flat-square)
 > Full-stack console-based Java E-commerce application with MVC architecture, PBKDF2 password hashing, shopping cart, order management, and file-based persistence
 
-[⭐ 2 stars](https://github.com/Jaideep193/Java) &nbsp; [→ View Project](https://github.com/Jaideep193/Java)
+[⭐ 3 stars](https://github.com/Jaideep193/Java) &nbsp; [→ View Project](https://github.com/Jaideep193/Java)
 
 ---
 
