@@ -225,26 +225,33 @@ def fetch_topics(repo_name):
 
 def pick_emoji(name, desc):
     text = (name + " " + desc).lower()
-    checks = [
-        (["lunar", "moon", "satellite", "chandrayaan"], "👨‍🚀"),
-        (["fire", "forest", "wildfire", "burn"], "🔥"),
-        (["cardiac", "heart", "ecg", "health", "medical", "bio"], "🪀"),
-        (["cloud", "aws", "azure", "gcp", "deploy"], "☁️"),
-        (["brain", "neural", "deep", "learn", "ai", "ml", "model"], "🧠"),
-        (["web", "frontend", "portfolio", "website", "react", "html"], "🌐"),
-        (["robot", "automat", "bot", "script"], "🤖"),
-        (["data", "analyt", "visual", "plot", "graph", "dashboard"], "📊"),
-        (["security", "crypto", "auth", "hack"], "🔐"),
-        (["game", "simulation", "model", "cellular"], "🎮"),
-        (["image", "vision", "detect", "recogni", "segmen"], "👁️"),
-        (["nlp", "text", "language", "chat", "llm", "gpt"], "💬"),
-        (["geo", "map", "spatial", "gis", "remote"], "🗺️"),
-    ]
-    for keywords, emoji in checks:
-        if any(k in text for k in keywords):
-            return emoji
-    return "📁"
-
+    if any(k in text for k in ["lunar", "moon", "satellite", "chandrayaan"]):
+        return "\U0001F468\u200D\U0001F680"
+    if any(k in text for k in ["fire", "forest", "wildfire", "burn"]):
+        return "\U0001F525"
+    if any(k in text for k in ["cardiac", "heart", "ecg", "health", "medical", "bio"]):
+        return "\U0001FAC0"
+    if any(k in text for k in ["cloud", "aws", "azure", "gcp", "deploy"]):
+        return "\u2601\uFE0F"
+    if any(k in text for k in ["brain", "neural", "deep", "learn", "ai", "ml", "model"]):
+        return "\U0001F9E0"
+    if any(k in text for k in ["web", "frontend", "portfolio", "website", "react", "html"]):
+        return "\U0001F310"
+    if any(k in text for k in ["robot", "automat", "bot", "script"]):
+        return "\U0001F916"
+    if any(k in text for k in ["data", "analyt", "visual", "plot", "graph", "dashboard"]):
+        return "\U0001F4CA"
+    if any(k in text for k in ["security", "crypto", "auth", "hack"]):
+        return "\U0001F510"
+    if any(k in text for k in ["game", "simulation", "cellular"]):
+        return "\U0001F3AE"
+    if any(k in text for k in ["image", "vision", "detect", "recogni", "segmen"]):
+        return "\U0001F441\uFE0F"
+    if any(k in text for k in ["nlp", "text", "language", "chat", "llm", "gpt"]):
+        return "\U0001F4AC"
+    if any(k in text for k in ["geo", "map", "spatial", "gis", "remote"]):
+        return "\U0001F5FA\uFE0F"
+    return "\U0001F4C1"
 
 # ── Build entries for ALL live repos (sorted by pushed_at) ──────────────────
 all_entries, added, updated = [], [], []
@@ -273,14 +280,15 @@ for idx, repo in enumerate(repos_sorted):
         badges.append(topic_badge(t, ti + 1))
     badge_line = " ".join(badges)
 
-    # Stars/Forks/Updated meta badges
+    # Stars/Forks/Updated meta badges (use URL-safe text only)
     meta_parts = []
     if stars > 0:
-        meta_parts.append(f"![Stars](https://img.shields.io/badge/⭐%20Stars-{stars}-{accent}?style=flat-square)")
+        meta_parts.append(f"![Stars](https://img.shields.io/badge/Stars-{stars}-{accent}?style=flat-square&logo=star)")
     if forks > 0:
-        meta_parts.append(f"![Forks](https://img.shields.io/badge/🔀%20Forks-{forks}-{accent}?style=flat-square)")
+        meta_parts.append(f"![Forks](https://img.shields.io/badge/Forks-{forks}-{accent}?style=flat-square&logo=git)")
     if pushed:
-        meta_parts.append(f"![Updated](https://img.shields.io/badge/\ud83d\udcc5%20Updated-{pushed.replace('-', '--')}-{accent}?style=flat-square)")
+        safe_pushed = pushed.replace('-', '--')
+        meta_parts.append(f"![Updated](https://img.shields.io/badge/Updated-{safe_pushed}-{accent}?style=flat-square)")
     meta_line = " ".join(meta_parts)
 
     # Build card
@@ -292,7 +300,7 @@ for idx, repo in enumerate(repos_sorted):
     entry += "\n"
     entry += f"> {summary}\n"
     entry += "\n"
-    entry += f"[![View Project](https://img.shields.io/badge/🚀%20View%20Project-{accent}?style=for-the-badge)]({url})\n"
+    entry += f"[![View Project](https://img.shields.io/badge/View%20Project-{accent}?style=for-the-badge)]({url})\n"
     entry += "\n---\n\n"
 
     all_entries.append(entry)
