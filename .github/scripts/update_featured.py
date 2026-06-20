@@ -202,11 +202,9 @@ def fetch_topics(repo_name):
         return r.json().get("names", [])
     return []
 
-# ── Build new entries ────────────────────────────────────────────────────────
-new_entries, added = [], []
+# ── Build entries for ALL live repos (refresh existing + add new) ────────────
+all_entries, added, updated = [], [], []
 for repo in repos:
-    if repo["name"] in existing_after_clean:
-        continue
     if repo["name"].lower() == username.lower():
         continue
     if repo.get("fork", False) or repo.get("archived", False):
@@ -234,24 +232,26 @@ for repo in repos:
     if badge_line:
         entry += badge_line + "\n"
     entry += summary + "\n\n"
-    new_entries.append(entry)
-    added.append(name)
+    all_entries.append(entry)
+    if name in existing_after_clean:
+        updated.append(name)
+    else:
+        added.append(name)
 
-if not new_entries and not removed:
+if not all_entries and not removed:
     print("No changes needed - README unchanged.")
     raise SystemExit
 
-# Ensure cleaned_block ends with a newline before appending new entries
-if cleaned_block and not cleaned_block.endswith("\n"):
-    cleaned_block += "\n"
-
-insert_text = "".join(new_entries)
-new_readme = readme[:si + len(START)] + cleaned_block + insert_text + readme[ei:]
+# Replace the entire featured block with freshly generated entries
+insert_text = "".join(all_entries)
+new_readme = readme[:si + len(START)] + "\n" + insert_text + readme[ei:]
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(new_readme)
 
 if added:
-    print(f"Added {len(added)} project(s): {', '.join(added)}")
+    print(f"Added {len(added)} new project(s): {', '.join(added)}")
+if updated:
+    print(f"Refreshed {len(updated)} existing project(s): {', '.join(updated)}")
 if removed:
     print(f"Removed {len(removed)} project(s): {', '.join(removed)}")
