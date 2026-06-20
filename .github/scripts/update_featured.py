@@ -66,15 +66,28 @@ def clean_markdown(text):
     text = re.sub(r"^\s*\d+\.\s+", "", text, flags=re.MULTILINE)
     text = re.sub(r"\|[-: ]+\|", " ", text)
     text = re.sub(r"\|", " ", text)
+    # Remove table-like numeric patterns
+    text = re.sub(r"\d+\s+[A-Za-z].*?(Min-max|norm|class|\[|\])", " ", text)
     good_lines = []
+    skip_patterns = [
+        r"^(https?|www\.|#|/\*|---|`|\|)",
+        r"^(getting started|installation|prerequisites|contributing|license|usage|features|table of contents)",
+        r"^(clone|install|download|fork the|create a|commit your|push to|open a pull)",
+        r"\d+\s+(synthetic|dem|min-max|gradient|weather|synth|lulc)",
+    ]
     for line in text.split("\n"):
         stripped = line.strip()
         if not stripped:
             continue
         real_words = re.findall(r"[A-Za-z]{2,}", stripped)
-        if len(real_words) < 2:
+        if len(real_words) < 3:
             continue
-        if re.match(r"^(https?|www\.|#|/\*|---|`|\|)", stripped):
+        skip = False
+        for pat in skip_patterns:
+            if re.match(pat, stripped.lower()):
+                skip = True
+                break
+        if skip:
             continue
         good_lines.append(stripped)
     return " ".join(good_lines)
