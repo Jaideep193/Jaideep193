@@ -30,6 +30,8 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
+## 🚀 Featured Projects
+
 <!-- FEATURED-PROJECTS-START -->
 ### 🧑‍💼 [Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
  ![Bayesian](https://img.shields.io/badge/Bayesian-0A66C2?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/Chandrayaan%202-0A66C2?style=flat-square) ![Ice Detection](https://img.shields.io/badge/Ice%20Detection-0A66C2?style=flat-square) ![Isru](https://img.shields.io/badge/Isru-0A66C2?style=flat-square)
