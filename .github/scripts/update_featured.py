@@ -20,8 +20,8 @@ while True:
                 data = r.json()
                 if not isinstance(data, list) or not data:
                                     break
-                                repos.extend(data)
-    page += 1
+                repos.extend(data)
+                page += 1
 
 # Live repos: non-fork, non-archived, not the profile repo itself
 live_repos = {
