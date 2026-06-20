@@ -82,11 +82,10 @@ def clean_markdown(text):
 
 
 def extract_summary(repo_name, fallback_desc=""):
-    """Return a rich 5+ sentence project description."""
+    """Return a rich 5-sentence project description."""
     # Get GitHub description (Priority 1 - clean human text)
     desc_sentences = []
     if fallback_desc and len(fallback_desc.split()) >= 3:
-        # Split description into sentences
         parts = re.split(r"(?<=[.!?])\s+", fallback_desc.strip())
         desc_sentences = [p.strip() for p in parts if len(p.split()) >= 3]
 
@@ -100,62 +99,45 @@ def extract_summary(repo_name, fallback_desc=""):
         for s in all_sentences:
             s = s.strip()
             words = s.split()
-            if len(words) < 4 or len(words) > 100:
+            if len(words) < 5 or len(words) > 60:
                 continue
             if re.search(r"https?://", s):
                 continue
-            if re.search(r"[|\\<>{}@]", s):
+            if re.search(r"[|\\<>{}@#]", s):
                 continue
             readme_sentences.append(s)
-            if len(readme_sentences) >= 8:
+            if len(readme_sentences) >= 5:
                 break
 
-    # Combine: desc first, then readme sentences, avoid duplicates
+    # Combine: desc first, then readme sentences, no duplicates, cap at 5
     combined = []
     seen_words = set()
     for s in desc_sentences + readme_sentences:
-        key = " ".join(s.lower().split()[:5])
+        key = " ".join(s.lower().split()[:6])
         if key not in seen_words:
             seen_words.add(key)
             combined.append(s)
+        if len(combined) >= 5:
+            break
 
-    # Build minimum 5-sentence summary
+    # Build exactly 5-sentence summary
     if len(combined) >= 5:
-        return " ".join(combined[:6])
+        return " ".join(combined[:5])
     elif combined:
-        # Pad with repo-name-based filler if fewer than 5 sentences
         result = " ".join(combined)
         title = repo_name.replace("-", " ").replace("_", " ").title()
         if len(combined) < 3:
-            result += f" This repository is focused on {title.lower()} and aims to provide practical, real-world solutions."
+            result += f" This project focuses on {title.lower()} and provides practical implementations using modern tools and techniques."
         if len(combined) < 5:
-            result += f" The project is actively maintained and developed with modern tools and best practices."
+            result += f" It is actively maintained with clean code, thorough documentation, and follows software engineering best practices."
         return result
     else:
         title = repo_name.replace("-", " ").replace("_", " ").title()
-        return (f"This project covers {title.lower()} with a focus on practical implementation. "
-                f"It is built using modern technologies and follows best development practices. "
-                f"The repository contains well-structured code and documentation. "
-                f"Contributions and feedback are welcome from the community. "
-                f"Explore the project to learn more about {title.lower()}.")
-
-# ── Read profile README ────────────────────────────────────────────────────────────
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
-
-START = "<!-- FEATURED-PROJECTS-START -->"
-END   = "<!-- FEATURED-PROJECTS-END -->"
-if START not in readme or END not in readme:
-    print("Markers not found - nothing to do.")
-    raise SystemExit
-
-si = readme.index(START)
-ei = readme.index(END)
-block = readme[si + len(START):ei]
-
-# ── REMOVAL: strip entries for repos that no longer exist ────────────────────
-entry_pattern = re.compile(r'### .+?(?=\n### |\Z)', re.DOTALL)
-removed = []
+        return (f"This project covers {title.lower()} with practical real-world implementation. "
+                f"It uses modern technologies and frameworks following best development practices. "
+                f"The codebase is clean, well-structured, and thoroughly documented. "
+                f"It is actively maintained and open to community contributions and feedback. "
+                f"Explore the repository to discover more about {title.lower()} in action.")
 
 def keep_entry(m):
     entry_text = m.group(0)
