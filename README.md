@@ -37,7 +37,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Updated](https://img.shields.io/badge/Updated-2026--06--21-FF6B6B?style=flat-square)
 
-> AI-powered job tracking dashboard and application prep tool using Gemini API An AI-powered local tool that helps you track job opportunities, score your match, tailor your resume, generate cover letters, and prepare for screening interviews — all powered by Google Gemini 2.0 Flash. This is used for job matching and generating all personalized content. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
+> AI-powered job tracking dashboard and application prep tool using Gemini API An AI-powered full-stack job tracking and application prep tool. Built with a FastAPI backend and a clean Vanilla JS + HTML/CSS frontend, powered by Google Gemini 2.0 Flash. All endpoints return on success. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
 
 [![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/job-application-toolkit)
 
