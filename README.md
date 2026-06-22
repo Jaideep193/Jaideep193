@@ -33,73 +33,73 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ## 🚀 Featured Projects
 
 <!-- FEATURED-PROJECTS-START -->
+### ☁️ **[My Portfolio](https://github.com/Jaideep193/My_Portfolio)**
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Frontend](https://img.shields.io/badge/frontend-E67E22?style=flat-square) ![Javascript](https://img.shields.io/badge/javascript-F1C40F?style=flat-square) ![Nodejs](https://img.shields.io/badge/nodejs-2ECC71?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-1ABC9C?style=flat-square) ![Portfolio](https://img.shields.io/badge/portfolio-3498DB?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-FF6B6B?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-FF6B6B?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--22-FF6B6B?style=flat-square)
+
+> Personal developer portfolio website showcasing projects, skills, certifications, and experience in AI/ML, cloud, and full-stack development. Deployed in AWS, Azure, GitHub pages A modern, responsive developer portfolio showcasing my projects, skills, and experience as a Computer Science engineer. Built with cutting-edge technologies and deployed across multiple cloud platforms for optimal performance and availability. If you'd like to suggest improvements or modifications: This project is licensed under the MIT License.
+
+[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/My_Portfolio)
+
+---
+
 ### 👨‍🚀 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/bayesian-E67E22?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/chandrayaan%202-F1C40F?style=flat-square) ![Ice Detection](https://img.shields.io/badge/ice%20detection-2ECC71?style=flat-square) ![Isru](https://img.shields.io/badge/isru-1ABC9C?style=flat-square) ![Lunar](https://img.shields.io/badge/lunar-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-FF6B6B?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-FF6B6B?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-FF6B6B?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-4ECDC4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-4ECDC4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-4ECDC4?style=flat-square)
 
 > End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Bayesian inference, and ML validation An end-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the lunar south polar Faustini Permanently Shadowed Region (PSR), using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC high-resolution optical imagery, and machine-learning validation. Water ice trapped in lunar south-polar PSRs is a critical resource for future crewed missions — as drinking water, oxygen, and rocket propellant via electrolysis. Doubly Shadowed Craters (DSCs), craters nested inside a PSR whose floors receive no scattered sunlight, are the thermally coldest environments on the Moon and the highest-priority targets for ice characterisation. The Chandrayaan-2 SAR instrument (L-band, 1.25 GHz, compact polarimetry) provides ~2–5 m penetration into dry lunar regolith, making it the primary tool for detecting buried ice dielectric anomalies without contact drilling.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
+[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
 
 ---
 
 ### 🫀 **[Cardiac Arrhythmia Detection And Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Cardiac Arrhythmia](https://img.shields.io/badge/cardiac%20arrhythmia-E67E22?style=flat-square) ![Classification](https://img.shields.io/badge/classification-F1C40F?style=flat-square) ![Ecg](https://img.shields.io/badge/ecg-2ECC71?style=flat-square) ![Healthcare](https://img.shields.io/badge/healthcare-1ABC9C?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-5-4ECDC4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-3-4ECDC4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-4ECDC4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-5-45B7D1?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-3-45B7D1?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-45B7D1?style=flat-square)
 
 > ML-based cardiac arrhythmia detection and classification using ECG data with signal processing, feature extraction, and supervised learning models Detection & Classification of Cardiac Arrhythmia An AI-powered diagnostic tool for real-time ECG analysis and clinical reporting This repository implements a state-of-the-art ECG Arrhythmia Detection and Classification system. Designed for clinicians and medical researchers, it bridges the gap between raw signal data and actionable medical insights using advanced Machine Learning. 🔍 Multi-Source Input Support for ECG CSVs, high-res images, and manual physiological data. 🧠 Weighted KNN Intelligence Classifies 16 arrhythmia types with high precision using a pre-trained Weighted KNN model.
 
-[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
 
 ---
 
 ### 🧠 **[Hackathon](https://github.com/Jaideep193/Hackathon)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ai](https://img.shields.io/badge/ai-E67E22?style=flat-square) ![Chatbot](https://img.shields.io/badge/chatbot-F1C40F?style=flat-square) ![Gemini](https://img.shields.io/badge/gemini-2ECC71?style=flat-square) ![Generative Ai](https://img.shields.io/badge/generative%20ai-1ABC9C?style=flat-square) ![Hackathon](https://img.shields.io/badge/hackathon-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-1-45B7D1?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-45B7D1?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-1-96CEB4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-96CEB4?style=flat-square)
 
 > Multimodal AI chatbot built with Streamlit and Google Gemini 2.0 Flash API — supports text, PDF, image, audio, and video interactions This project is a full multimodal AI chatbot built using Streamlit and Google Gemini 2.0 Flash API. It allows you to interact with text, PDFs, images, audio, and video files through a simple and intuitive web UI. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
 
-[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/Hackathon)
+[![View Project](https://img.shields.io/badge/View%20Project-96CEB4?style=for-the-badge)](https://github.com/Jaideep193/Hackathon)
 
 ---
 
 ### 👨‍🚀 **[Forest Fire](https://github.com/Jaideep193/forest-fire)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automaton](https://img.shields.io/badge/cellular%20automaton-E67E22?style=flat-square) ![Fire Simulation](https://img.shields.io/badge/fire%20simulation-F1C40F?style=flat-square) ![Forest Fire](https://img.shields.io/badge/forest%20fire-2ECC71?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-1ABC9C?style=flat-square) ![Gis](https://img.shields.io/badge/gis-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-96CEB4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-96CEB4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-FFEAA7?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-FFEAA7?style=flat-square)
 
 > Forest fire spread simulation for Uttarakhand, India using NASA VIIRS satellite data, Copernicus DEM, and a Rothermel Cellular Automation model Physics-based fire spread simulation for the Uttarakhand region using satellite fire detections, terrain analysis, and a Rothermel-inspired Cellular Automaton model. Forest fires in Uttarakhand (Himalayan foothills, India) are a recurring ecological and humanitarian crisis. This project builds an end-to-end pipeline that: Builds a fire risk probability map from 5 years of historical VIIRS fire frequency (2019–2023) using spatial Gaussian smoothing — no ML training required. Simulates fire spread using a physics-based Cellular Automaton (CA) model driven by Rothermel fire-behavior equations, incorporating wind, slope, aspect, fuel load, and humidity.
 
-[![View Project](https://img.shields.io/badge/View%20Project-96CEB4?style=for-the-badge)](https://github.com/Jaideep193/forest-fire)
+[![View Project](https://img.shields.io/badge/View%20Project-FFEAA7?style=for-the-badge)](https://github.com/Jaideep193/forest-fire)
 
 ---
 
 ### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/forest-fire-detection)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automata](https://img.shields.io/badge/cellular%20automata-E67E22?style=flat-square) ![Forest Fire Detection](https://img.shields.io/badge/forest%20fire%20detection-F1C40F?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-2ECC71?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-1ABC9C?style=flat-square) ![Random Forest](https://img.shields.io/badge/random%20forest-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-FFEAA7?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--17-FFEAA7?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-DDA0DD?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--17-DDA0DD?style=flat-square)
 
 > AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India Next-day fire probability maps + multi-hour fire spread simulation at ification, and vectorized Cellular Automata. The CA engine implements vectorised 8-neighbourhood spread using shifts — no Python loops over pixels. For each burning source cell spreading to a neighbouring cell in direction θ: Wind factor (directional alignment): Slope factor (uphill spread faster): Moisture factor (high humidity suppresses fire): All outputs are valid GeoTIFFs readable by QGIS, ArcGIS, GDAL, and rasterio. VIIRS footprint expansion: Each 375 m native VIIRS detection is rasterised as a disk of radius 6 pixels (180 m) at 30 m grid to account for geolocation uncertainty.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FFEAA7?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
+[![View Project](https://img.shields.io/badge/View%20Project-DDA0DD?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
 
 ---
 
 ### 📁 **[Java](https://github.com/Jaideep193/Java)**
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![Console Application](https://img.shields.io/badge/console%20application-E67E22?style=flat-square) ![Data Persistence](https://img.shields.io/badge/data%20persistence-F1C40F?style=flat-square) ![Ecommerce](https://img.shields.io/badge/ecommerce-2ECC71?style=flat-square) ![Java](https://img.shields.io/badge/java-1ABC9C?style=flat-square) ![Mvc](https://img.shields.io/badge/mvc-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-DDA0DD?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--17-DDA0DD?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-98D8C8?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--17-98D8C8?style=flat-square)
 
 > Full-stack console-based Java E-commerce application with MVC architecture, PBKDF2 password hashing, shopping cart, order management, and file-based persistence Welcome to the Java Learning Repository! This repository is dedicated to learning and mastering Java programming from basics to advanced concepts. 🚀 Data Structures & Algorithms Object-Oriented Programming (OOP) Java Development Kit (JDK) 8 or higher IDE: IntelliJ IDEA, Eclipse, or VS Code Basic programming knowledge (optional) Set up your IDE and start learning! If you find any issues or have improvements: This project is open source and available under the MIT License.
 
-[![View Project](https://img.shields.io/badge/View%20Project-DDA0DD?style=for-the-badge)](https://github.com/Jaideep193/Java)
-
----
-
-### ☁️ **[My Portfolio](https://github.com/Jaideep193/My_Portfolio)**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Frontend](https://img.shields.io/badge/frontend-E67E22?style=flat-square) ![Javascript](https://img.shields.io/badge/javascript-F1C40F?style=flat-square) ![Nodejs](https://img.shields.io/badge/nodejs-2ECC71?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-1ABC9C?style=flat-square) ![Portfolio](https://img.shields.io/badge/portfolio-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-4-98D8C8?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-98D8C8?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--15-98D8C8?style=flat-square)
-
-> Personal developer portfolio website showcasing projects, skills, certifications, and experience in AI/ML, cloud, and full-stack development. Deployed in AWS, Azure, GitHub pages A modern, responsive developer portfolio showcasing my projects, skills, and experience as a Computer Science engineer. Built with cutting-edge technologies and deployed across multiple cloud platforms for optimal performance and availability. If you'd like to suggest improvements or modifications: This project is licensed under the MIT License.
-
-[![View Project](https://img.shields.io/badge/View%20Project-98D8C8?style=for-the-badge)](https://github.com/Jaideep193/My_Portfolio)
+[![View Project](https://img.shields.io/badge/View%20Project-98D8C8?style=for-the-badge)](https://github.com/Jaideep193/Java)
 
 ---
 
