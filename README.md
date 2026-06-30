@@ -35,7 +35,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 <!-- FEATURED-PROJECTS-START -->
 ### ☁️ **[My Portfolio](https://github.com/Jaideep193/My_Portfolio)**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Frontend](https://img.shields.io/badge/frontend-E67E22?style=flat-square) ![Javascript](https://img.shields.io/badge/javascript-F1C40F?style=flat-square) ![Nodejs](https://img.shields.io/badge/nodejs-2ECC71?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-1ABC9C?style=flat-square) ![Portfolio](https://img.shields.io/badge/portfolio-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-4-FF6B6B?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-FF6B6B?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--22-FF6B6B?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-FF6B6B?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-FF6B6B?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--30-FF6B6B?style=flat-square)
 
 > Personal developer portfolio website showcasing projects, skills, certifications, and experience in AI/ML, cloud, and full-stack development. Deployed in AWS, Azure, GitHub pages A modern, responsive developer portfolio showcasing my projects, skills, and experience as a Computer Science engineer. Built with cutting-edge technologies and deployed across multiple cloud platforms for optimal performance and availability. If you'd like to suggest improvements or modifications: This project is licensed under the MIT License.
 
