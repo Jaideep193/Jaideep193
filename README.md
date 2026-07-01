@@ -153,13 +153,13 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 ---
 
-### 🧠 **[Sct Ml 1](https://github.com/Jaideep193/SCT_ML_1)**
+### 🧠 **[Linear Regression Model For House Price Prediction](https://github.com/Jaideep193/Linear-regression-model-for-house-price-prediction)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Data Science](https://img.shields.io/badge/data%20science-E67E22?style=flat-square) ![Eda](https://img.shields.io/badge/eda-F1C40F?style=flat-square) ![House Price Prediction](https://img.shields.io/badge/house%20price%20prediction-2ECC71?style=flat-square) ![Jupyter](https://img.shields.io/badge/jupyter-1ABC9C?style=flat-square) ![Linear Regression](https://img.shields.io/badge/linear%20regression-3498DB?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-2025--12--21-F1948A?style=flat-square)
 
 > Linear regression model for house price prediction with EDA, outlier detection, hyperparameter tuning, and visual analytics using Jupyter Notebook 🚀 How to Run This project implements a machine learning solution for predicting house prices using linear regression. The model analyzes key housing features including: 📏 Square Footage - Living area in square feet 🛏️ Bedrooms - Number of bedrooms 🚿 Bathrooms - Number of bathrooms The solution demonstrates practical application of supervised learning techniques in real estate valuation and provides accurate price predictions across diverse property types. The project utilizes a comprehensive housing dataset ( ) containing: Square Footage Living area in square feet Bedrooms Number of bedrooms Bathrooms Number of bathrooms Price Target variable (house prices) The dataset provides diverse housing samples enabling robust model training and evaluation across different property types and price ranges. Project completed as part of SkillCraft Technology Machine Learning internship - Task 1 ⭐ If you found this project helpful, please consider giving it a star!
 
-[![View Project](https://img.shields.io/badge/View%20Project-F1948A?style=for-the-badge)](https://github.com/Jaideep193/SCT_ML_1)
+[![View Project](https://img.shields.io/badge/View%20Project-F1948A?style=for-the-badge)](https://github.com/Jaideep193/Linear-regression-model-for-house-price-prediction)
 
 ---
 
@@ -172,13 +172,13 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 ---
 
-### 🧠 **[Sct Ml 2](https://github.com/Jaideep193/SCT_ML_2)**
+### 🧠 **[K Means Clustering Model For Customer Segmentation](https://github.com/Jaideep193/K-Means-clustering-model-for-customer-segmentation)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Clustering](https://img.shields.io/badge/clustering-E67E22?style=flat-square) ![Customer Segmentation](https://img.shields.io/badge/customer%20segmentation-F1C40F?style=flat-square) ![Data Science](https://img.shields.io/badge/data%20science-2ECC71?style=flat-square) ![Jupyter](https://img.shields.io/badge/jupyter-1ABC9C?style=flat-square) ![Kmeans](https://img.shields.io/badge/kmeans-3498DB?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-2025--12--12-A9DFBF?style=flat-square)
 
 > K-Means clustering model for customer segmentation using Mall Customers dataset with feature engineering and cluster visualization This project implements a comprehensive K-means clustering algorithm to segment customers of a retail store based on their demographic and spending characteristics. The analysis uses the MallCustomers dataset to identify distinct customer groups for targeted marketing strategies and business insights. The comprehensive analysis provides actionable insights for business strategy development, with multiple visualization approaches making the results accessible to both technical and non-technical stakeholders. The identified customer segments enable data-driven decision making for marketing, product development, and customer relationship management initiatives.
 
-[![View Project](https://img.shields.io/badge/View%20Project-A9DFBF?style=for-the-badge)](https://github.com/Jaideep193/SCT_ML_2)
+[![View Project](https://img.shields.io/badge/View%20Project-A9DFBF?style=for-the-badge)](https://github.com/Jaideep193/K-Means-clustering-model-for-customer-segmentation)
 
 ---
 
