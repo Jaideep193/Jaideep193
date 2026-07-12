@@ -220,7 +220,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 [![GitHub Foundations](https://img.shields.io/badge/GitHub%20Foundations-Certified-181717?style=for-the-badge&logo=github&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/7EA00533ADAE0650?sharingId=6788F3C5B1756A98)
 
-[![Microsoft Certified: SQL AI Developer Associate (DP-800)](https://img.shields.io/badge/Microsoft%20Certified-DP--800%20%7C%20Azure%20Database%20Administrator%20Associate-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/72D480EC97A02146?sharingId=6788F3C5B1756A98)
+[![Microsoft Certified: SQL AI Developer Associate](https://img.shields.io/badge/Microsoft%20Certified-SQL%20AI%20Developer%20Associate-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/72D480EC97A02146?sharingId=6788F3C5B1756A98)
 
 [![Microsoft Certified: Power Platform Fundamentals](https://img.shields.io/badge/Microsoft%20Certified-Power%20Platform%20Fundamentals-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/2B8526E6FA0DBCDF?sharingId=6788F3C5B1756A98)
 
