@@ -238,15 +238,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 
 
-## 🎖️ Certificates & Accomplishments
-
-### Certifications Earned
-- **NVIDIA Certified Associate: Generative AI & LLMs** - Demonstrated expertise in leveraging large language models and generative AI architectures for real-world applications
-- **Microsoft Certified: Power Platform Fundamentals** - Proficient in Power Apps, Power Automate, and Power BI for business solutions
-- **Microsoft Certified: Azure Fundamentals** - Foundation-level knowledge of Azure cloud services and infrastructure
-- **Microsoft Certified: Azure Data Fundamentals** - Expertise in data concepts, data analytics, and BI fundamentals on Azure
-- **Oracle Certified: Data Science Professional** - Demonstrated knowledge of ML algorithms, data preprocessing, and model evaluation
-- **Oracle Certified: Generative AI Professional** - Specialized skills in implementing generative AI solutions on Oracle Cloud
+## 🎖️ Accomplishments
 
 ### Key Accomplishments
 ✅ **Machine Learning Projects**: Developed 4+ production-grade ML models with >85% accuracy in classification tasks
