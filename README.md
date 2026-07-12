@@ -218,6 +218,10 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 [![NVIDIA Certified Associate: Generative AI & LLMs](https://img.shields.io/badge/NVIDIA%20Certified%20Associate-Generative%20AI%20%26%20LLMs-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://www.credly.com/badges/2081a2fc-91d3-4edb-9035-3bbf67da7eef/linked_in_profile)
 
+[![GitHub Foundations](https://img.shields.io/badge/GitHub%20Foundations-Certified-181717?style=for-the-badge&logo=github&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/7EA00533ADAE0650?sharingId=6788F3C5B1756A98)
+
+[![Microsoft Certified: SQL AI Developer Associate (DP-800)](https://img.shields.io/badge/Microsoft%20Certified-DP--800%20%7C%20Azure%20Database%20Administrator%20Associate-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/72D480EC97A02146?sharingId=6788F3C5B1756A98)
+
 [![Microsoft Certified: Power Platform Fundamentals](https://img.shields.io/badge/Microsoft%20Certified-Power%20Platform%20Fundamentals-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/2B8526E6FA0DBCDF?sharingId=6788F3C5B1756A98)
 
 [![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Microsoft%20Certified-Azure%20Fundamentals-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/JaideepMC-3064/29E89F813C34FCC4?sharingId=6788F3C5B1756A98)
