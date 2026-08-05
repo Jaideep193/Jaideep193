@@ -33,33 +33,33 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ## 🚀 Featured Projects
 
 <!-- FEATURED-PROJECTS-START -->
+### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/forest-fire-detection)**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automata](https://img.shields.io/badge/cellular%20automata-E67E22?style=flat-square) ![Forest Fire Detection](https://img.shields.io/badge/forest%20fire%20detection-F1C40F?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-2ECC71?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-1ABC9C?style=flat-square) ![Random Forest](https://img.shields.io/badge/random%20forest-3498DB?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-FF6B6B?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-FF6B6B?style=flat-square)
+
+> AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India Next-day fire-probability mapping and multi-hour fire-spread simulation at ifier, and a vectorised Cellular Automata engine. Auto-generated dashboard: probability map, binary map, spread snapshots and feature importances in one figure. Simulated fire front advancing over the 12-hour horizon. Wildfires in the Kumaon and Garhwal Himalaya region of Uttarakhand cause recurring ecological and economic damage.
+
+[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
+
+---
+
 ### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/Forest_Fire_Detection)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Classification](https://img.shields.io/badge/classification-E67E22?style=flat-square) ![Data Science](https://img.shields.io/badge/data%20science-F1C40F?style=flat-square) ![Detection](https://img.shields.io/badge/detection-2ECC71?style=flat-square) ![Environmental](https://img.shields.io/badge/environmental-1ABC9C?style=flat-square) ![Forest Fire](https://img.shields.io/badge/forest%20fire-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-4-FF6B6B?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-2-FF6B6B?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-FF6B6B?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-4ECDC4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-2-4ECDC4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-4ECDC4?style=flat-square)
 
 > AI-based forest fire detection using satellite imagery and environmental data with supervised ML classification, accuracy benchmarking, and geographic hotspot visualization This project trains a convolutional neural network (CNN) to perform binary image classification, distinguishing images that show an active forest fire from images that do not. The model is built and trained end-to-end in a single Jupyter/Colab notebook ( ) using TensorFlow/Keras, trained on the "Wildfire Dataset" from Kaggle, and evaluated on a held-out test split, reaching roughly 79.7% test accuracy. The classifier is a compact CNN with three convolutional blocks followed by a dense classification head: The network is compiled with the Adam optimizer and binary cross-entropy loss, and trained for 12 epochs on 150x150 RGB images with a batch size of 32. The notebook downloads "The Wildfire Dataset" directly from Kaggle via ( ).
 
-[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/Forest_Fire_Detection)
+[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/Forest_Fire_Detection)
 
 ---
 
 ### 👨‍🚀 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/bayesian-E67E22?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/chandrayaan%202-F1C40F?style=flat-square) ![Ice Detection](https://img.shields.io/badge/ice%20detection-2ECC71?style=flat-square) ![Isru](https://img.shields.io/badge/isru-1ABC9C?style=flat-square) ![Lunar](https://img.shields.io/badge/lunar-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-4ECDC4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-4ECDC4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-4ECDC4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-45B7D1?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-45B7D1?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-45B7D1?style=flat-square)
 
 > End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Bayesian inference, and ML validation This project combines Chandrayaan-2 Dual-Frequency Synthetic Aperture Radar (DFSAR) compact-polarimetry data and Orbiter High Resolution Camera (OHRC) optical imagery with physically grounded models and an independent machine-learning cross-check. The pipeline produces publication-quality figures, an interactive dashboard, exportable GIS products, and mission-planning outputs such as landing-site selection and rover traversability. The codebase is organised as a modular Python pipeline ( ) driven by a single orchestration script ( ), supplemented by a large collection of standalone analysis and figure-generation scripts at the repository root, and a Jupyter notebook for interactive exploration. Step 1 — Data acquisition and simulation.
 
-[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
-
----
-
-### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/forest-fire-detection)**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automata](https://img.shields.io/badge/cellular%20automata-E67E22?style=flat-square) ![Forest Fire Detection](https://img.shields.io/badge/forest%20fire%20detection-F1C40F?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-2ECC71?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-1ABC9C?style=flat-square) ![Random Forest](https://img.shields.io/badge/random%20forest-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-45B7D1?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-45B7D1?style=flat-square)
-
-> AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India Next-day fire probability maps + multi-hour fire spread simulation at ification, and vectorized Cellular Automata. The CA engine implements vectorised 8-neighbourhood spread using shifts — no Python loops over pixels. For each burning source cell spreading to a neighbouring cell in direction θ: Wind factor (directional alignment): Slope factor (uphill spread faster): Moisture factor (high humidity suppresses fire): All outputs are valid GeoTIFFs readable by QGIS, ArcGIS, GDAL, and rasterio. VIIRS footprint expansion: Each 375 m native VIIRS detection is rasterised as a disk of radius 6 pixels (180 m) at 30 m grid to account for geolocation uncertainty.
-
-[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
+[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
 
 ---
 
