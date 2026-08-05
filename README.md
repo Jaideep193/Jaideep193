@@ -33,43 +33,43 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ## 🚀 Featured Projects
 
 <!-- FEATURED-PROJECTS-START -->
+### 👨‍🚀 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/bayesian-E67E22?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/chandrayaan%202-F1C40F?style=flat-square) ![Ice Detection](https://img.shields.io/badge/ice%20detection-2ECC71?style=flat-square) ![Isru](https://img.shields.io/badge/isru-1ABC9C?style=flat-square) ![Lunar](https://img.shields.io/badge/lunar-3498DB?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-FF6B6B?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-FF6B6B?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-FF6B6B?style=flat-square)
+
+> End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Bayesian inference, and ML validation This project combines Chandrayaan-2 Dual-Frequency Synthetic Aperture Radar (DFSAR) compact-polarimetry data and Orbiter High Resolution Camera (OHRC) optical imagery with physically grounded models and an independent machine-learning cross-check. The pipeline produces publication-quality figures, an interactive dashboard, exportable GIS products, and mission-planning outputs such as landing-site selection and rover traversability. The codebase is organised as a modular Python pipeline ( ) driven by a single orchestration script ( ), supplemented by a large collection of standalone analysis and figure-generation scripts at the repository root, and a Jupyter notebook for interactive exploration. Step 1 — Data acquisition and simulation.
+
+[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
+
+---
+
 ### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/forest-fire-detection)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automata](https://img.shields.io/badge/cellular%20automata-E67E22?style=flat-square) ![Forest Fire Detection](https://img.shields.io/badge/forest%20fire%20detection-F1C40F?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-2ECC71?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-1ABC9C?style=flat-square) ![Random Forest](https://img.shields.io/badge/random%20forest-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-FF6B6B?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-FF6B6B?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-4ECDC4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-4ECDC4?style=flat-square)
 
 > AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India Next-day fire probability maps + multi-hour fire spread simulation at ification, and vectorized Cellular Automata. The CA engine implements vectorised 8-neighbourhood spread using shifts — no Python loops over pixels. For each burning source cell spreading to a neighbouring cell in direction θ: Wind factor (directional alignment): Slope factor (uphill spread faster): Moisture factor (high humidity suppresses fire): All outputs are valid GeoTIFFs readable by QGIS, ArcGIS, GDAL, and rasterio. VIIRS footprint expansion: Each 375 m native VIIRS detection is rasterised as a disk of radius 6 pixels (180 m) at 30 m grid to account for geolocation uncertainty.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
+[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
 
 ---
 
 ### 🫀 **[Cardiac Arrhythmia Detection And Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Cardiac Arrhythmia](https://img.shields.io/badge/cardiac%20arrhythmia-E67E22?style=flat-square) ![Classification](https://img.shields.io/badge/classification-F1C40F?style=flat-square) ![Ecg](https://img.shields.io/badge/ecg-2ECC71?style=flat-square) ![Healthcare](https://img.shields.io/badge/healthcare-1ABC9C?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-5-4ECDC4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-3-4ECDC4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-4ECDC4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-5-45B7D1?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-3-45B7D1?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-45B7D1?style=flat-square)
 
 > ML-based cardiac arrhythmia detection and classification using ECG data with signal processing, feature extraction, and supervised learning models Detection & Classification of Cardiac Arrhythmia An AI-powered diagnostic tool for real-time ECG analysis and clinical reporting This repository implements a state-of-the-art ECG Arrhythmia Detection and Classification system. Designed for clinicians and medical researchers, it bridges the gap between raw signal data and actionable medical insights using advanced Machine Learning. 🔍 Multi-Source Input Support for ECG CSVs, high-res images, and manual physiological data. 🧠 Weighted KNN Intelligence Classifies 16 arrhythmia types with high precision using a pre-trained Weighted KNN model.
 
-[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
 
 ---
 
 ### ☁️ **[My Portfolio](https://github.com/Jaideep193/My_Portfolio)**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Frontend](https://img.shields.io/badge/frontend-E67E22?style=flat-square) ![Javascript](https://img.shields.io/badge/javascript-F1C40F?style=flat-square) ![Nodejs](https://img.shields.io/badge/nodejs-2ECC71?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-1ABC9C?style=flat-square) ![Portfolio](https://img.shields.io/badge/portfolio-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-4-45B7D1?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-45B7D1?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--30-45B7D1?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-96CEB4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-96CEB4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--30-96CEB4?style=flat-square)
 
 > Personal developer portfolio website showcasing projects, skills, certifications, and experience in AI/ML, cloud, and full-stack development. Deployed in AWS, Azure, GitHub pages A modern, responsive developer portfolio showcasing my projects, skills, and experience as a Computer Science engineer. Built with cutting-edge technologies and deployed across multiple cloud platforms for optimal performance and availability. If you'd like to suggest improvements or modifications: This project is licensed under the MIT License.
 
-[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/My_Portfolio)
-
----
-
-### 👨‍🚀 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/bayesian-E67E22?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/chandrayaan%202-F1C40F?style=flat-square) ![Ice Detection](https://img.shields.io/badge/ice%20detection-2ECC71?style=flat-square) ![Isru](https://img.shields.io/badge/isru-1ABC9C?style=flat-square) ![Lunar](https://img.shields.io/badge/lunar-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-96CEB4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-96CEB4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-96CEB4?style=flat-square)
-
-> End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Bayesian inference, and ML validation An end-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the lunar south polar Faustini Permanently Shadowed Region (PSR), using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC high-resolution optical imagery, and machine-learning validation. Water ice trapped in lunar south-polar PSRs is a critical resource for future crewed missions — as drinking water, oxygen, and rocket propellant via electrolysis. Doubly Shadowed Craters (DSCs), craters nested inside a PSR whose floors receive no scattered sunlight, are the thermally coldest environments on the Moon and the highest-priority targets for ice characterisation. The Chandrayaan-2 SAR instrument (L-band, 1.25 GHz, compact polarimetry) provides ~2–5 m penetration into dry lunar regolith, making it the primary tool for detecting buried ice dielectric anomalies without contact drilling.
-
-[![View Project](https://img.shields.io/badge/View%20Project-96CEB4?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
+[![View Project](https://img.shields.io/badge/View%20Project-96CEB4?style=for-the-badge)](https://github.com/Jaideep193/My_Portfolio)
 
 ---
 
