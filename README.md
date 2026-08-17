@@ -157,7 +157,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Cicd](https://img.shields.io/badge/cicd-E67E22?style=flat-square) ![Cloud Native](https://img.shields.io/badge/cloud%20native-F1C40F?style=flat-square) ![Devops](https://img.shields.io/badge/devops-2ECC71?style=flat-square) ![Docker](https://img.shields.io/badge/docker-1ABC9C?style=flat-square) ![Gcp](https://img.shields.io/badge/gcp-3498DB?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-2025--12--21-F1948A?style=flat-square)
 
-> Production-ready distributed Go web app for GCP exposing GCE instance metadata via REST API, with Docker, Kubernetes (GKE), and Jenkins CI/CD pipeline This project focuses on default with practical implementations using modern tools and techniques. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
+> Production-ready distributed Go web app for GCP exposing GCE instance metadata via REST API, with Docker, Kubernetes (GKE), and Jenkins CI/CD pipeline 🚀 GCE Instance Metadata Service A distributed multi-tier Go application for Google Cloud Platform Frontend · Backend · Cloud-Native · Microservices This is a production-ready Go web application that demonstrates a distributed, multi-tier architecture for Google Cloud Platform (GCP). Please follow these steps: Follow Go conventions ( ) Add tests for new features Version Date Changes 2.0.0 2024 Enhanced features, optimized pipeline Copyright 2015 Google Inc. Jaideep193 - Cloud & DevOps Enthusiast 📧 Connect for collaboration and contributions ⭐ If you find this project helpful, please give it a star! ⭐ Made with ❤️ for the cloud-native community
 
 [![View Project](https://img.shields.io/badge/View%20Project-F1948A?style=for-the-badge)](https://github.com/Jaideep193/default)
 
@@ -176,7 +176,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ### 📁 **[Adgenesis](https://github.com/Jaideep193/adgenesis)**
 ![Updated](https://img.shields.io/badge/Updated-2025--12--12-A9DFBF?style=flat-square)
 
-> This project covers adgenesis with practical real-world implementation. It uses modern technologies and frameworks following best development practices. The codebase is clean, well-structured, and thoroughly documented. It is actively maintained and open to community contributions and feedback. Explore the repository to discover more about adgenesis in action.
+> Automate compliant ad creation with AI-powered design generation - 100% FREE with custom ML model! ADGENESIS is an AI SaaS platform that helps marketers and designers create platform-compliant advertisements in seconds. Upload your brand guidelines, describe your ad concept, and let AI generate professional designs that meet platform requirements (Meta, Google, LinkedIn). NEW: Now powered by a custom fine-tuned ML model - generate unlimited ads for FREE with zero OpenAI costs! Latest version includes manual object rendering Canvas now properly scales 1080x1080 designs to 800x800 display Background colors render correctly Fixed!
 
 [![View Project](https://img.shields.io/badge/View%20Project-A9DFBF?style=for-the-badge)](https://github.com/Jaideep193/adgenesis)
 
