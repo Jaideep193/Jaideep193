@@ -33,192 +33,202 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 ## 🚀 Featured Projects
 
 <!-- FEATURED-PROJECTS-START -->
+### ☁️ **[Udacity Aws P1](https://github.com/Jaideep193/Udacity_AWS_P1)**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Updated](https://img.shields.io/badge/Updated-2026--08--22-FF6B6B?style=flat-square)
+
+> This project covers udacity aws p1 with practical real-world implementation. It uses modern technologies and frameworks following best development practices. The codebase is clean, well-structured, and thoroughly documented. It is actively maintained and open to community contributions and feedback. Explore the repository to discover more about udacity aws p1 in action.
+
+[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/Udacity_AWS_P1)
+
+---
+
 ### 🧠 **[Netflix](https://github.com/Jaideep193/netflix)**
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Updated](https://img.shields.io/badge/Updated-2026--08--06-FF6B6B?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2026--08--06-4ECDC4?style=flat-square)
 
 > A Netflix-clone style web project (landing page UI lone) built with HTML, CSS and JavaScript A front-end clone of a Netflix-style streaming landing page, built for learning purposes using plain HTML, CSS and JavaScript. This project is a UI recreation only and is not affiliated with or endorsed by Netflix. The page includes a responsive navigation bar with a sign-in button, a hero banner with an email sign-up call to action, feature rows describing the demo service, an interactive FAQ accordion section, and a footer with helpful links. Built with HTML5 for markup, CSS3 for styling using Flexbox, media queries and gradients, and vanilla JavaScript for DOM events, without any external frameworks.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/netflix)
+[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/netflix)
 
 ---
 
 ### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/forest-fire-detection)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automata](https://img.shields.io/badge/cellular%20automata-E67E22?style=flat-square) ![Forest Fire Detection](https://img.shields.io/badge/forest%20fire%20detection-F1C40F?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-2ECC71?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-1ABC9C?style=flat-square) ![Random Forest](https://img.shields.io/badge/random%20forest-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-4ECDC4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-4ECDC4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-45B7D1?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-45B7D1?style=flat-square)
 
 > AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India Next-day fire-probability mapping and multi-hour fire-spread simulation at ifier, and a vectorised Cellular Automata engine. Auto-generated dashboard: probability map, binary map, spread snapshots and feature importances in one figure. Simulated fire front advancing over the 12-hour horizon. Wildfires in the Kumaon and Garhwal Himalaya region of Uttarakhand cause recurring ecological and economic damage.
 
-[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
+[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/forest-fire-detection)
 
 ---
 
 ### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/Forest_Fire_Detection)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Classification](https://img.shields.io/badge/classification-E67E22?style=flat-square) ![Data Science](https://img.shields.io/badge/data%20science-F1C40F?style=flat-square) ![Detection](https://img.shields.io/badge/detection-2ECC71?style=flat-square) ![Environmental](https://img.shields.io/badge/environmental-1ABC9C?style=flat-square) ![Forest Fire](https://img.shields.io/badge/forest%20fire-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-4-45B7D1?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-2-45B7D1?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-45B7D1?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-96CEB4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-2-96CEB4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-96CEB4?style=flat-square)
 
 > AI-based forest fire detection using satellite imagery and environmental data with supervised ML classification, accuracy benchmarking, and geographic hotspot visualization This project trains a convolutional neural network (CNN) to perform binary image classification, distinguishing images that show an active forest fire from images that do not. The model is built and trained end-to-end in a single Jupyter/Colab notebook ( ) using TensorFlow/Keras, trained on the "Wildfire Dataset" from Kaggle, and evaluated on a held-out test split, reaching roughly 79.7% test accuracy. The classifier is a compact CNN with three convolutional blocks followed by a dense classification head: The network is compiled with the Adam optimizer and binary cross-entropy loss, and trained for 12 epochs on 150x150 RGB images with a batch size of 32. The notebook downloads "The Wildfire Dataset" directly from Kaggle via ( ).
 
-[![View Project](https://img.shields.io/badge/View%20Project-45B7D1?style=for-the-badge)](https://github.com/Jaideep193/Forest_Fire_Detection)
+[![View Project](https://img.shields.io/badge/View%20Project-96CEB4?style=for-the-badge)](https://github.com/Jaideep193/Forest_Fire_Detection)
 
 ---
 
 ### 👨‍🚀 **[Subsurface Ice Lunar South Polar](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Bayesian](https://img.shields.io/badge/bayesian-E67E22?style=flat-square) ![Chandrayaan 2](https://img.shields.io/badge/chandrayaan%202-F1C40F?style=flat-square) ![Ice Detection](https://img.shields.io/badge/ice%20detection-2ECC71?style=flat-square) ![Isru](https://img.shields.io/badge/isru-1ABC9C?style=flat-square) ![Lunar](https://img.shields.io/badge/lunar-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-96CEB4?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-96CEB4?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-96CEB4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-FFEAA7?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-FFEAA7?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-FFEAA7?style=flat-square)
 
 > End-to-end remote-sensing pipeline for detecting and characterising subsurface water ice in the Faustini Permanently Shadowed Region using Chandrayaan-2 DFSAR compact-polarimetry SAR, OHRC imagery, Bayesian inference, and ML validation This project combines Chandrayaan-2 Dual-Frequency Synthetic Aperture Radar (DFSAR) compact-polarimetry data and Orbiter High Resolution Camera (OHRC) optical imagery with physically grounded models and an independent machine-learning cross-check. The pipeline produces publication-quality figures, an interactive dashboard, exportable GIS products, and mission-planning outputs such as landing-site selection and rover traversability. The codebase is organised as a modular Python pipeline ( ) driven by a single orchestration script ( ), supplemented by a large collection of standalone analysis and figure-generation scripts at the repository root, and a Jupyter notebook for interactive exploration. Step 1 — Data acquisition and simulation.
 
-[![View Project](https://img.shields.io/badge/View%20Project-96CEB4?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
+[![View Project](https://img.shields.io/badge/View%20Project-FFEAA7?style=for-the-badge)](https://github.com/Jaideep193/Subsurface-Ice-Lunar-South-Polar)
 
 ---
 
 ### 🫀 **[Cardiac Arrhythmia Detection And Classification](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Cardiac Arrhythmia](https://img.shields.io/badge/cardiac%20arrhythmia-E67E22?style=flat-square) ![Classification](https://img.shields.io/badge/classification-F1C40F?style=flat-square) ![Ecg](https://img.shields.io/badge/ecg-2ECC71?style=flat-square) ![Healthcare](https://img.shields.io/badge/healthcare-1ABC9C?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-5-FFEAA7?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-3-FFEAA7?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-FFEAA7?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-5-DDA0DD?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-3-DDA0DD?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--07--23-DDA0DD?style=flat-square)
 
 > ML-based cardiac arrhythmia detection and classification using ECG data with signal processing, feature extraction, and supervised learning models Detection & Classification of Cardiac Arrhythmia An AI-powered diagnostic tool for real-time ECG analysis and clinical reporting This repository implements a state-of-the-art ECG Arrhythmia Detection and Classification system. Designed for clinicians and medical researchers, it bridges the gap between raw signal data and actionable medical insights using advanced Machine Learning. 🔍 Multi-Source Input Support for ECG CSVs, high-res images, and manual physiological data. 🧠 Weighted KNN Intelligence Classifies 16 arrhythmia types with high precision using a pre-trained Weighted KNN model.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FFEAA7?style=for-the-badge)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
+[![View Project](https://img.shields.io/badge/View%20Project-DDA0DD?style=for-the-badge)](https://github.com/Jaideep193/Cardiac_Arrhythmia_Detection_And_Classification)
 
 ---
 
 ### ☁️ **[My Portfolio](https://github.com/Jaideep193/My_Portfolio)**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Frontend](https://img.shields.io/badge/frontend-E67E22?style=flat-square) ![Javascript](https://img.shields.io/badge/javascript-F1C40F?style=flat-square) ![Nodejs](https://img.shields.io/badge/nodejs-2ECC71?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-1ABC9C?style=flat-square) ![Portfolio](https://img.shields.io/badge/portfolio-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-4-DDA0DD?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-DDA0DD?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--30-DDA0DD?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-98D8C8?style=flat-square&logo=star) ![Forks](https://img.shields.io/badge/Forks-1-98D8C8?style=flat-square&logo=git) ![Updated](https://img.shields.io/badge/Updated-2026--06--30-98D8C8?style=flat-square)
 
 > Personal developer portfolio website showcasing projects, skills, certifications, and experience in AI/ML, cloud, and full-stack development. Deployed in AWS, Azure, GitHub pages A modern, responsive developer portfolio showcasing my projects, skills, and experience as a Computer Science engineer. Built with cutting-edge technologies and deployed across multiple cloud platforms for optimal performance and availability. If you'd like to suggest improvements or modifications: This project is licensed under the MIT License.
 
-[![View Project](https://img.shields.io/badge/View%20Project-DDA0DD?style=for-the-badge)](https://github.com/Jaideep193/My_Portfolio)
+[![View Project](https://img.shields.io/badge/View%20Project-98D8C8?style=for-the-badge)](https://github.com/Jaideep193/My_Portfolio)
 
 ---
 
 ### 🧠 **[Hackathon](https://github.com/Jaideep193/Hackathon)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ai](https://img.shields.io/badge/ai-E67E22?style=flat-square) ![Chatbot](https://img.shields.io/badge/chatbot-F1C40F?style=flat-square) ![Gemini](https://img.shields.io/badge/gemini-2ECC71?style=flat-square) ![Generative Ai](https://img.shields.io/badge/generative%20ai-1ABC9C?style=flat-square) ![Hackathon](https://img.shields.io/badge/hackathon-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-1-98D8C8?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-98D8C8?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-1-F7DC6F?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-F7DC6F?style=flat-square)
 
 > Multimodal AI chatbot built with Streamlit and Google Gemini 2.0 Flash API — supports text, PDF, image, audio, and video interactions This project is a full multimodal AI chatbot built using Streamlit and Google Gemini 2.0 Flash API. It allows you to interact with text, PDFs, images, audio, and video files through a simple and intuitive web UI. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
 
-[![View Project](https://img.shields.io/badge/View%20Project-98D8C8?style=for-the-badge)](https://github.com/Jaideep193/Hackathon)
+[![View Project](https://img.shields.io/badge/View%20Project-F7DC6F?style=for-the-badge)](https://github.com/Jaideep193/Hackathon)
 
 ---
 
 ### 👨‍🚀 **[Forest Fire](https://github.com/Jaideep193/forest-fire)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automaton](https://img.shields.io/badge/cellular%20automaton-E67E22?style=flat-square) ![Fire Simulation](https://img.shields.io/badge/fire%20simulation-F1C40F?style=flat-square) ![Forest Fire](https://img.shields.io/badge/forest%20fire-2ECC71?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-1ABC9C?style=flat-square) ![Gis](https://img.shields.io/badge/gis-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-F7DC6F?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-F7DC6F?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-BB8FCE?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--21-BB8FCE?style=flat-square)
 
 > Forest fire spread simulation for Uttarakhand, India using NASA VIIRS satellite data, Copernicus DEM, and a Rothermel Cellular Automation model Physics-based fire spread simulation for the Uttarakhand region using satellite fire detections, terrain analysis, and a Rothermel-inspired Cellular Automaton model. Forest fires in Uttarakhand (Himalayan foothills, India) are a recurring ecological and humanitarian crisis. This project builds an end-to-end pipeline that: Builds a fire risk probability map from 5 years of historical VIIRS fire frequency (2019–2023) using spatial Gaussian smoothing — no ML training required. Simulates fire spread using a physics-based Cellular Automaton (CA) model driven by Rothermel fire-behavior equations, incorporating wind, slope, aspect, fuel load, and humidity.
 
-[![View Project](https://img.shields.io/badge/View%20Project-F7DC6F?style=for-the-badge)](https://github.com/Jaideep193/forest-fire)
+[![View Project](https://img.shields.io/badge/View%20Project-BB8FCE?style=for-the-badge)](https://github.com/Jaideep193/forest-fire)
 
 ---
 
 ### 📁 **[Java](https://github.com/Jaideep193/Java)**
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![Console Application](https://img.shields.io/badge/console%20application-E67E22?style=flat-square) ![Data Persistence](https://img.shields.io/badge/data%20persistence-F1C40F?style=flat-square) ![Ecommerce](https://img.shields.io/badge/ecommerce-2ECC71?style=flat-square) ![Java](https://img.shields.io/badge/java-1ABC9C?style=flat-square) ![Mvc](https://img.shields.io/badge/mvc-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-BB8FCE?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--17-BB8FCE?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-85C1E9?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--17-85C1E9?style=flat-square)
 
 > Full-stack console-based Java E-commerce application with MVC architecture, PBKDF2 password hashing, shopping cart, order management, and file-based persistence Welcome to the Java Learning Repository! This repository is dedicated to learning and mastering Java programming from basics to advanced concepts. 🚀 Data Structures & Algorithms Object-Oriented Programming (OOP) Java Development Kit (JDK) 8 or higher IDE: IntelliJ IDEA, Eclipse, or VS Code Basic programming knowledge (optional) Set up your IDE and start learning! If you find any issues or have improvements: This project is open source and available under the MIT License.
 
-[![View Project](https://img.shields.io/badge/View%20Project-BB8FCE?style=for-the-badge)](https://github.com/Jaideep193/Java)
+[![View Project](https://img.shields.io/badge/View%20Project-85C1E9?style=for-the-badge)](https://github.com/Jaideep193/Java)
 
 ---
 
 ### 🧠 **[Delhi Aqi](https://github.com/Jaideep193/Delhi_AQI)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Air Quality](https://img.shields.io/badge/air%20quality-E67E22?style=flat-square) ![Aqi](https://img.shields.io/badge/aqi-F1C40F?style=flat-square) ![Data Analysis](https://img.shields.io/badge/data%20analysis-2ECC71?style=flat-square) ![Environmental](https://img.shields.io/badge/environmental-1ABC9C?style=flat-square) ![Forecasting](https://img.shields.io/badge/forecasting-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-85C1E9?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--15-85C1E9?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-F0B27A?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--06--15-F0B27A?style=flat-square)
 
 > End-to-end Delhi air quality index analysis with time series decomposition, multi-source AQI data aggregation, trend forecasting, and interactive heatmap visualizations A comprehensive time series analysis and forecasting system for Delhi's air quality patterns, providing actionable insights for environmental monitoring and public health assessment. This project delivers an end-to-end analysis of Delhi's Air Quality Index (AQI) using advanced time series modeling techniques. By leveraging SARIMA forecasting and comprehensive statistical analysis, we uncover critical patterns in air pollution that directly impact over 30 million residents in the National Capital Region. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
 
-[![View Project](https://img.shields.io/badge/View%20Project-85C1E9?style=for-the-badge)](https://github.com/Jaideep193/Delhi_AQI)
+[![View Project](https://img.shields.io/badge/View%20Project-F0B27A?style=for-the-badge)](https://github.com/Jaideep193/Delhi_AQI)
 
 ---
 
 ### 🧠 **[Jaideep193.Github.Io](https://github.com/Jaideep193/Jaideep193.github.io)**
 ![Css](https://img.shields.io/badge/css-E67E22?style=flat-square) ![Github Pages](https://img.shields.io/badge/github%20pages-F1C40F?style=flat-square) ![Html](https://img.shields.io/badge/html-2ECC71?style=flat-square) ![Personal Website](https://img.shields.io/badge/personal%20website-1ABC9C?style=flat-square) ![Portfolio](https://img.shields.io/badge/portfolio-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2026--03--31-F0B27A?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2026--03--31-82E0AA?style=flat-square)
 
 > GitHub Pages hosted personal website and portfolio for Jaideep M C — Information Science Engineer and AI/ML enthusiast This project focuses on jaideep193.github.io with practical implementations using modern tools and techniques. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
 
-[![View Project](https://img.shields.io/badge/View%20Project-F0B27A?style=for-the-badge)](https://github.com/Jaideep193/Jaideep193.github.io)
+[![View Project](https://img.shields.io/badge/View%20Project-82E0AA?style=for-the-badge)](https://github.com/Jaideep193/Jaideep193.github.io)
 
 ---
 
 ### 🧠 **[Jaideepmc2003](https://github.com/Jaideep193/jaideepmc2003)**
 ![About Me](https://img.shields.io/badge/about%20me-E67E22?style=flat-square) ![Accomplishments](https://img.shields.io/badge/accomplishments-F1C40F?style=flat-square) ![Certifications](https://img.shields.io/badge/certifications-2ECC71?style=flat-square) ![Github Profile](https://img.shields.io/badge/github%20profile-1ABC9C?style=flat-square) ![Profile](https://img.shields.io/badge/profile-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2025--12--29-82E0AA?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--12--29-F1948A?style=flat-square)
 
 > Alternate GitHub profile README for Jaideep M C — certificates, accomplishments, and developer identity Implements linear regression and documents performance metrics (MAE, RMSE) in Jupyter notebooks. Includes visual analytics (scatter plots, correlation matrices) and notebook-based workflow for reproducibility. Real-time attendance logging using face recognition and camera feeds. Detects and identifies individuals from live video, tagging attendance to a database with accuracy checks.
 
-[![View Project](https://img.shields.io/badge/View%20Project-82E0AA?style=for-the-badge)](https://github.com/Jaideep193/jaideepmc2003)
+[![View Project](https://img.shields.io/badge/View%20Project-F1948A?style=for-the-badge)](https://github.com/Jaideep193/jaideepmc2003)
 
 ---
 
 ### ☁️ **[Default](https://github.com/Jaideep193/default)**
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Cicd](https://img.shields.io/badge/cicd-E67E22?style=flat-square) ![Cloud Native](https://img.shields.io/badge/cloud%20native-F1C40F?style=flat-square) ![Devops](https://img.shields.io/badge/devops-2ECC71?style=flat-square) ![Docker](https://img.shields.io/badge/docker-1ABC9C?style=flat-square) ![Gcp](https://img.shields.io/badge/gcp-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2025--12--21-F1948A?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--12--21-AED6F1?style=flat-square)
 
 > Production-ready distributed Go web app for GCP exposing GCE instance metadata via REST API, with Docker, Kubernetes (GKE), and Jenkins CI/CD pipeline 🚀 GCE Instance Metadata Service A distributed multi-tier Go application for Google Cloud Platform Frontend · Backend · Cloud-Native · Microservices This is a production-ready Go web application that demonstrates a distributed, multi-tier architecture for Google Cloud Platform (GCP). Please follow these steps: Follow Go conventions ( ) Add tests for new features Version Date Changes 2.0.0 2024 Enhanced features, optimized pipeline Copyright 2015 Google Inc. Jaideep193 - Cloud & DevOps Enthusiast 📧 Connect for collaboration and contributions ⭐ If you find this project helpful, please give it a star! ⭐ Made with ❤️ for the cloud-native community
 
-[![View Project](https://img.shields.io/badge/View%20Project-F1948A?style=for-the-badge)](https://github.com/Jaideep193/default)
+[![View Project](https://img.shields.io/badge/View%20Project-AED6F1?style=for-the-badge)](https://github.com/Jaideep193/default)
 
 ---
 
 ### 🧠 **[Linear Regression Model For House Price Prediction](https://github.com/Jaideep193/Linear-regression-model-for-house-price-prediction)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Data Science](https://img.shields.io/badge/data%20science-E67E22?style=flat-square) ![Eda](https://img.shields.io/badge/eda-F1C40F?style=flat-square) ![House Price Prediction](https://img.shields.io/badge/house%20price%20prediction-2ECC71?style=flat-square) ![Jupyter](https://img.shields.io/badge/jupyter-1ABC9C?style=flat-square) ![Linear Regression](https://img.shields.io/badge/linear%20regression-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2025--12--21-AED6F1?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--12--21-A9DFBF?style=flat-square)
 
 > Linear regression model for house price prediction with EDA, outlier detection, hyperparameter tuning, and visual analytics using Jupyter Notebook 🚀 How to Run This project implements a machine learning solution for predicting house prices using linear regression. The model analyzes key housing features including: 📏 Square Footage - Living area in square feet 🛏️ Bedrooms - Number of bedrooms 🚿 Bathrooms - Number of bathrooms The solution demonstrates practical application of supervised learning techniques in real estate valuation and provides accurate price predictions across diverse property types. The project utilizes a comprehensive housing dataset ( ) containing: Square Footage Living area in square feet Bedrooms Number of bedrooms Bathrooms Number of bathrooms Price Target variable (house prices) The dataset provides diverse housing samples enabling robust model training and evaluation across different property types and price ranges. Project completed as part of SkillCraft Technology Machine Learning internship - Task 1 ⭐ If you found this project helpful, please consider giving it a star!
 
-[![View Project](https://img.shields.io/badge/View%20Project-AED6F1?style=for-the-badge)](https://github.com/Jaideep193/Linear-regression-model-for-house-price-prediction)
+[![View Project](https://img.shields.io/badge/View%20Project-A9DFBF?style=for-the-badge)](https://github.com/Jaideep193/Linear-regression-model-for-house-price-prediction)
 
 ---
 
 ### 📁 **[Adgenesis](https://github.com/Jaideep193/adgenesis)**
-![Updated](https://img.shields.io/badge/Updated-2025--12--12-A9DFBF?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--12--12-FAD7A0?style=flat-square)
 
 > Automate compliant ad creation with AI-powered design generation - 100% FREE with custom ML model! ADGENESIS is an AI SaaS platform that helps marketers and designers create platform-compliant advertisements in seconds. Upload your brand guidelines, describe your ad concept, and let AI generate professional designs that meet platform requirements (Meta, Google, LinkedIn). NEW: Now powered by a custom fine-tuned ML model - generate unlimited ads for FREE with zero OpenAI costs! Latest version includes manual object rendering Canvas now properly scales 1080x1080 designs to 800x800 display Background colors render correctly Fixed!
 
-[![View Project](https://img.shields.io/badge/View%20Project-A9DFBF?style=for-the-badge)](https://github.com/Jaideep193/adgenesis)
+[![View Project](https://img.shields.io/badge/View%20Project-FAD7A0?style=for-the-badge)](https://github.com/Jaideep193/adgenesis)
 
 ---
 
 ### 🧠 **[K Means Clustering Model For Customer Segmentation](https://github.com/Jaideep193/K-Means-clustering-model-for-customer-segmentation)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Clustering](https://img.shields.io/badge/clustering-E67E22?style=flat-square) ![Customer Segmentation](https://img.shields.io/badge/customer%20segmentation-F1C40F?style=flat-square) ![Data Science](https://img.shields.io/badge/data%20science-2ECC71?style=flat-square) ![Jupyter](https://img.shields.io/badge/jupyter-1ABC9C?style=flat-square) ![Kmeans](https://img.shields.io/badge/kmeans-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2025--12--12-FAD7A0?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--12--12-D7BDE2?style=flat-square)
 
 > K-Means clustering model for customer segmentation using Mall Customers dataset with feature engineering and cluster visualization This project implements a comprehensive K-means clustering algorithm to segment customers of a retail store based on their demographic and spending characteristics. The analysis uses the MallCustomers dataset to identify distinct customer groups for targeted marketing strategies and business insights. The comprehensive analysis provides actionable insights for business strategy development, with multiple visualization approaches making the results accessible to both technical and non-technical stakeholders. The identified customer segments enable data-driven decision making for marketing, product development, and customer relationship management initiatives.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FAD7A0?style=for-the-badge)](https://github.com/Jaideep193/K-Means-clustering-model-for-customer-segmentation)
+[![View Project](https://img.shields.io/badge/View%20Project-D7BDE2?style=for-the-badge)](https://github.com/Jaideep193/K-Means-clustering-model-for-customer-segmentation)
 
 ---
 
 ### 📊 **[Bigdata](https://github.com/Jaideep193/BigData)**
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![Big Data](https://img.shields.io/badge/big%20data-E67E22?style=flat-square) ![Data Analytics](https://img.shields.io/badge/data%20analytics-F1C40F?style=flat-square) ![Ecommerce](https://img.shields.io/badge/ecommerce-2ECC71?style=flat-square) ![Eda](https://img.shields.io/badge/eda-1ABC9C?style=flat-square) ![Exploratory Analysis](https://img.shields.io/badge/exploratory%20analysis-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2025--11--27-D7BDE2?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--11--27-A3E4D7?style=flat-square)
 
 > Big data analytics on e-commerce datasets including Brazilian Olist marketplace data — data processing, insights, and exploratory analysis This project focuses on bigdata with practical implementations using modern tools and techniques. It is actively maintained with clean code, thorough documentation, and follows software engineering best practices.
 
-[![View Project](https://img.shields.io/badge/View%20Project-D7BDE2?style=for-the-badge)](https://github.com/Jaideep193/BigData)
+[![View Project](https://img.shields.io/badge/View%20Project-A3E4D7?style=for-the-badge)](https://github.com/Jaideep193/BigData)
 
 ---
 
 ### 👁️ **[ Hand Gestures ](https://github.com/Jaideep193/-Hand_Gestures_)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Computer Vision](https://img.shields.io/badge/computer%20vision-E67E22?style=flat-square) ![Gesture Recognition](https://img.shields.io/badge/gesture%20recognition-F1C40F?style=flat-square) ![Hand Gesture](https://img.shields.io/badge/hand%20gesture-2ECC71?style=flat-square) ![Media Control](https://img.shields.io/badge/media%20control-1ABC9C?style=flat-square) ![Mediapipe](https://img.shields.io/badge/mediapipe-3498DB?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2025--11--01-A3E4D7?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2025--11--01-FF6B6B?style=flat-square)
 
 > Real-time hand gesture recognition system using MediaPipe and OpenCV that controls media playback via keyboard commands A real-time hand gesture recognition system that enables touchless media control using computer vision. Control your media playback, volume, and other functions with simple hand gestures captured through your webcam. How It Works This project leverages MediaPipe for hand tracking and gesture detection to provide an intuitive, touchless interface for controlling media playback. The system recognizes various hand gestures in real-time and translates them into keyboard commands for media control.
 
-[![View Project](https://img.shields.io/badge/View%20Project-A3E4D7?style=for-the-badge)](https://github.com/Jaideep193/-Hand_Gestures_)
+[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/-Hand_Gestures_)
 
 ---
 
 ### 🤖 **[Facial Attendance System](https://github.com/Jaideep193/Facial_Attendance_System)**
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA5B0B?style=flat-square&logo=jupyter&logoColor=white) ![Attendance System](https://img.shields.io/badge/attendance%20system-E67E22?style=flat-square) ![Computer Vision](https://img.shields.io/badge/computer%20vision-F1C40F?style=flat-square) ![Face Detection](https://img.shields.io/badge/face%20detection-2ECC71?style=flat-square) ![Facial Recognition](https://img.shields.io/badge/facial%20recognition-1ABC9C?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-FF6B6B?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2025--09--11-FF6B6B?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-3-4ECDC4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2025--09--11-4ECDC4?style=flat-square)
 
 > Real-time facial recognition attendance system using OpenCV with live camera feed, automated CSV/Excel log export, and database tagging A Python-based Attendance Management System using Face Recognition (OpenCV + Machine Learning). Automatically recognizes faces from a webcam to mark attendance in real-time, saving the results in a CSV file! 🖼️ Face Detection & Dataset Creation: Capture face images from a webcam and organize them into structured user folders. 🧑‍🏫 Model Training: Train a robust LBPH (Local Binary Patterns Histograms) recognizer on your dataset for identification.
 
-[![View Project](https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge)](https://github.com/Jaideep193/Facial_Attendance_System)
+[![View Project](https://img.shields.io/badge/View%20Project-4ECDC4?style=for-the-badge)](https://github.com/Jaideep193/Facial_Attendance_System)
 
 ---
 
