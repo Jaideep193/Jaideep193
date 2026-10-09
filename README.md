@@ -65,7 +65,7 @@ Open to opportunities in: AI/ML Engineering • Full-Stack Development • Cloud
 
 ### 👨‍🚀 **[Forest Fire Detection](https://github.com/Jaideep193/forest-fire-detection)**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cellular Automata](https://img.shields.io/badge/cellular%20automata-E67E22?style=flat-square) ![Forest Fire Detection](https://img.shields.io/badge/forest%20fire%20detection-F1C40F?style=flat-square) ![Geospatial](https://img.shields.io/badge/geospatial-2ECC71?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine%20learning-1ABC9C?style=flat-square) ![Random Forest](https://img.shields.io/badge/random%20forest-3498DB?style=flat-square)
-![Stars](https://img.shields.io/badge/Stars-3-96CEB4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-96CEB4?style=flat-square)
+![Stars](https://img.shields.io/badge/Stars-4-96CEB4?style=flat-square&logo=star) ![Updated](https://img.shields.io/badge/Updated-2026--08--05-96CEB4?style=flat-square)
 
 > AI/ML pipeline for next-day forest fire probability mapping & multi-hour spread simulation using VIIRS satellite data, Random Forest, and Cellular Automata at 30m resolution over Uttarakhand, India Next-day fire-probability mapping and multi-hour fire-spread simulation at ifier, and a vectorised Cellular Automata engine. Auto-generated dashboard: probability map, binary map, spread snapshots and feature importances in one figure. Simulated fire front advancing over the 12-hour horizon. Wildfires in the Kumaon and Garhwal Himalaya region of Uttarakhand cause recurring ecological and economic damage.
 
